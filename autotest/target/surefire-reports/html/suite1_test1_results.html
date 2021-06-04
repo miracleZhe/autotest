@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="" lang="">
+<head>
+  <title>Test Results Report - 接口自动化测试</title>
+  <meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+  <meta name="description" content="TestNG unit test results." />
+  <link href="reportng.css" rel="stylesheet" type="text/css" />
+    <script type="text/javascript" src="reportng.js"></script>
+</head>
+<body>
+<h1>接口自动化测试</h1>
+<p>
+  Test duration: 1.267s
+</p>
+
+
+
+
+
+  <table class="resultsTable">
+    <tr><th colspan="3" class="header passed">Passed Tests</th></tr>
+          <tr>
+        <td colspan="3" class="group">com.youceedu.interf.util.ExcelUtilTest</td>
+      </tr>
+            
+<tr>
+  <td class="method">
+                  testHttpReq
+      </td>
+  <td class="duration">
+    0.512s
+  </td>
+  <td class="result">
+        
+          <i>Method arguments: </i><span class="arguments">"1", "YES", "王哲--正确的账号和密码登录", "POST", "http://8.131.245.231:8080", "/api/loginCheck", "id=123456&passwd=123456&t=${__Random(1,1,50)}", "$.msg=管理员登陆成功;$.stateCode=1", "NO", "/api/loginCheck:$.stateCode"</span><br />
+    
+            <div class="testOutput">
+                        函数处理后的dataid=123456&amp;passwd=123456&amp;t=46<br />
+                                测试用例编号1<br />
+                                测试用例王哲--正确的账号和密码登录<br />
+                                用例接口: http://8.131.245.231:8080/api/loginCheck<br />
+                                替换后的data: id=123456&amp;passwd=123456&amp;t=46<br />
+                                预期结果：$.msg=管理员登陆成功;$.stateCode=1<br />
+                                实际结果：{&quot;msg&quot;:&quot;管理员登陆成功&quot;,&quot;stateCode&quot;:&quot;1&quot;}<br />
+                  </div>
+    
+
+      </td>
+</tr>
+      </table>
+  
+</body>
+</html>

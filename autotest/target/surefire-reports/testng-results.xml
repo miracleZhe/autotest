@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+    <line>
+      <![CDATA[函数处理后的dataid=123456&passwd=123456&t=46]]>
+    </line>
+    <line>
+      <![CDATA[测试用例编号1]]>
+    </line>
+    <line>
+      <![CDATA[测试用例王哲--正确的账号和密码登录]]>
+    </line>
+    <line>
+      <![CDATA[用例接口: http://8.131.245.231:8080/api/loginCheck]]>
+    </line>
+    <line>
+      <![CDATA[替换后的data: id=123456&passwd=123456&t=46]]>
+    </line>
+    <line>
+      <![CDATA[预期结果：$.msg=管理员登陆成功;$.stateCode=1]]>
+    </line>
+    <line>
+      <![CDATA[实际结果：{"msg":"管理员登陆成功","stateCode":"1"}]]>
+    </line>
+  </reporter-output>
+  <suite name="优测教育" duration-ms="1641" started-at="2021-06-04T14:24:03Z" finished-at="2021-06-04T14:24:05Z">
+    <groups>
+    </groups>
+    <test name="接口自动化测试" duration-ms="1641" started-at="2021-06-04T14:24:03Z" finished-at="2021-06-04T14:24:05Z">
+      <class name="com.youceedu.interf.util.ExcelUtilTest">
+        <test-method status="PASS" signature="beforeTest(java.lang.String)[pri:0, instance:com.youceedu.interf.util.ExcelUtilTest@4566e5bd]" name="beforeTest" is-config="true" duration-ms="8" started-at="2021-06-04T22:24:03Z" finished-at="2021-06-04T22:24:03Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[D:\\testcase.xlsx]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="testHttpReq(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.youceedu.interf.util.ExcelUtilTest@4566e5bd]" name="testHttpReq" duration-ms="512" started-at="2021-06-04T22:24:03Z" data-provider="testdata" finished-at="2021-06-04T22:24:04Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[YES]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[王哲--正确的账号和密码登录]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[POST]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[http://8.131.245.231:8080]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[/api/loginCheck]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[id=123456&passwd=123456&t=${__Random(1,1,50)}]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[$.msg=管理员登陆成功;$.stateCode=1]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[NO]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[/api/loginCheck:$.stateCode]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[函数处理后的dataid=123456&passwd=123456&t=46]]>
+            </line>
+            <line>
+              <![CDATA[测试用例编号1]]>
+            </line>
+            <line>
+              <![CDATA[测试用例王哲--正确的账号和密码登录]]>
+            </line>
+            <line>
+              <![CDATA[用例接口: http://8.131.245.231:8080/api/loginCheck]]>
+            </line>
+            <line>
+              <![CDATA[替换后的data: id=123456&passwd=123456&t=46]]>
+            </line>
+            <line>
+              <![CDATA[预期结果：$.msg=管理员登陆成功;$.stateCode=1]]>
+            </line>
+            <line>
+              <![CDATA[实际结果：{"msg":"管理员登陆成功","stateCode":"1"}]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testHttpReq -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:com.youceedu.interf.util.ExcelUtilTest@4566e5bd]" name="afterTest" is-config="true" duration-ms="747" started-at="2021-06-04T22:24:04Z" finished-at="2021-06-04T22:24:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+      </class> <!-- com.youceedu.interf.util.ExcelUtilTest -->
+    </test> <!-- 接口自动化测试 -->
+  </suite> <!-- 优测教育 -->
+</testng-results>

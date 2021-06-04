@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="优测教育" parallel="false">
+    <parameter name="filepath"  value="D:\\testcase.xlsx"/>
+
+    <test name="接口自动化测试">
+        <classes>
+            <class name="com.youceedu.interf.util.ExcelUtilTest"/>
+        </classes>
+    </test> <!-- Test -->
+    <listeners>
+        <listener class-name="org.uncommons.reportng.HTMLReporter" />
+        <listener class-name="org.uncommons.reportng.JUnitXMLReporter" />
+        <!--失败用例重试-->
+        <listener class-name="com.youceedu.interf.listener.AnnotationTransformerImpl"/>
+        <listener class-name="com.youceedu.interf.listener.TestListenerImpl"/>
+    </listeners>
+</suite> <!-- Suite -->

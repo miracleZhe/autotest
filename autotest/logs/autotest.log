@@ -1,0 +1,1122 @@
+2021-05-01 22:02:37 INFO com.youceedu.interf.util.ExcelUtil:29 -实例化类，入参filename= D:\\testcase.xlsx
+2021-05-01 22:02:38 INFO com.youceedu.interf.util.ExcelUtil:41 -成功得到XSSFWorkbook对象 wb
+2021-05-01 22:02:38 INFO com.youceedu.interf.util.ExcelUtil:53 -成功得到sheet对象
+2021-05-01 22:02:38 INFO com.youceedu.interf.util.ExcelUtil:110 -单元格类型: STRING 返回值= 1
+2021-05-01 22:02:38 INFO com.youceedu.interf.util.ExcelUtil:110 -单元格类型: STRING 返回值= YES
+2021-05-01 22:02:38 INFO com.youceedu.interf.util.ExcelUtil:110 -单元格类型: STRING 返回值= 正确的账号和密码登录
+2021-05-01 22:02:38 INFO com.youceedu.interf.util.ExcelUtil:110 -单元格类型: STRING 返回值= POST
+2021-05-01 22:02:38 INFO com.youceedu.interf.util.ExcelUtil:110 -单元格类型: STRING 返回值= http://8.131.245.231:8080
+2021-05-01 22:02:38 INFO com.youceedu.interf.util.ExcelUtil:110 -单元格类型: STRING 返回值= /api/loginCheck
+2021-05-01 22:02:38 INFO com.youceedu.interf.util.ExcelUtil:110 -单元格类型: STRING 返回值= id=123456&passwd=123456
+2021-05-01 22:02:38 INFO com.youceedu.interf.util.ExcelUtil:110 -单元格类型: STRING 返回值= $.msg=管理员登陆成功;$.stateCode=1
+2021-05-01 22:02:38 INFO com.youceedu.interf.util.ExcelUtil:110 -单元格类型: STRING 返回值= YES
+2021-05-01 22:02:38 INFO com.youceedu.interf.util.ExcelUtil:110 -单元格类型: STRING 返回值= /api/loginCheck:$.stateCode
+2021-05-01 22:02:38 INFO com.youceedu.interf.util.ExcelUtil:110 -单元格类型: STRING 返回值= 2
+2021-05-01 22:02:38 INFO com.youceedu.interf.util.ExcelUtil:110 -单元格类型: STRING 返回值= YES
+2021-05-01 22:02:38 INFO com.youceedu.interf.util.ExcelUtil:110 -单元格类型: STRING 返回值= 修改密码
+2021-05-01 22:02:38 INFO com.youceedu.interf.util.ExcelUtil:110 -单元格类型: STRING 返回值= POST
+2021-05-01 22:02:38 INFO com.youceedu.interf.util.ExcelUtil:110 -单元格类型: STRING 返回值= http://8.131.245.231:8080
+2021-05-01 22:02:38 INFO com.youceedu.interf.util.ExcelUtil:110 -单元格类型: STRING 返回值= /admin_repasswd_do
+2021-05-01 22:02:38 INFO com.youceedu.interf.util.ExcelUtil:110 -单元格类型: STRING 返回值= oldPasswd=/api/loginCheck:$.stateCode&newPasswd=123456&reNewPasswd=123456
+2021-05-01 22:02:38 INFO com.youceedu.interf.util.ExcelUtil:110 -单元格类型: STRING 返回值= test
+2021-05-01 22:02:38 INFO com.youceedu.interf.util.ExcelUtil:110 -单元格类型: STRING 返回值= NO
+2021-05-01 22:02:38 INFO com.youceedu.interf.util.ExcelUtil:110 -单元格类型: STRING 返回值= test
+2021-05-01 22:02:38 INFO com.youceedu.interf.util.ExcelUtil:133 -excel内测试用例已成功存入到二维数组testcasedata中
+2021-05-01 22:17:53 INFO com.youceedu.interf.util.ExcelUtilTest:25 -传入excel路径 filepath: D:\\testcase.xlsx
+2021-05-01 22:17:53 INFO com.youceedu.interf.util.ExcelUtil:29 -实例化类，入参filename= D:\\testcase.xlsx
+2021-05-01 22:17:53 INFO com.youceedu.interf.util.ExcelUtilTest:65 -给测试方法提供测试数据
+2021-05-01 22:17:54 INFO com.youceedu.interf.util.ExcelUtil:41 -成功得到XSSFWorkbook对象 wb
+2021-05-01 22:17:54 INFO com.youceedu.interf.util.ExcelUtil:53 -成功得到sheet对象
+2021-05-01 22:17:54 INFO com.youceedu.interf.util.ExcelUtil:110 -单元格类型: STRING 返回值= 1
+2021-05-01 22:17:54 INFO com.youceedu.interf.util.ExcelUtil:110 -单元格类型: STRING 返回值= YES
+2021-05-01 22:17:54 INFO com.youceedu.interf.util.ExcelUtil:110 -单元格类型: STRING 返回值= 正确的账号和密码登录
+2021-05-01 22:17:54 INFO com.youceedu.interf.util.ExcelUtil:110 -单元格类型: STRING 返回值= POST
+2021-05-01 22:17:54 INFO com.youceedu.interf.util.ExcelUtil:110 -单元格类型: STRING 返回值= http://8.131.245.231:8080
+2021-05-01 22:17:54 INFO com.youceedu.interf.util.ExcelUtil:110 -单元格类型: STRING 返回值= /api/loginCheck
+2021-05-01 22:17:54 INFO com.youceedu.interf.util.ExcelUtil:110 -单元格类型: STRING 返回值= id=123456&passwd=123456
+2021-05-01 22:17:54 INFO com.youceedu.interf.util.ExcelUtil:110 -单元格类型: STRING 返回值= $.msg=管理员登陆成功;$.stateCode=1
+2021-05-01 22:17:54 INFO com.youceedu.interf.util.ExcelUtil:110 -单元格类型: STRING 返回值= YES
+2021-05-01 22:17:54 INFO com.youceedu.interf.util.ExcelUtil:110 -单元格类型: STRING 返回值= /api/loginCheck:$.stateCode
+2021-05-01 22:17:54 INFO com.youceedu.interf.util.ExcelUtil:110 -单元格类型: STRING 返回值= 2
+2021-05-01 22:17:54 INFO com.youceedu.interf.util.ExcelUtil:110 -单元格类型: STRING 返回值= YES
+2021-05-01 22:17:54 INFO com.youceedu.interf.util.ExcelUtil:110 -单元格类型: STRING 返回值= 修改密码
+2021-05-01 22:17:54 INFO com.youceedu.interf.util.ExcelUtil:110 -单元格类型: STRING 返回值= POST
+2021-05-01 22:17:54 INFO com.youceedu.interf.util.ExcelUtil:110 -单元格类型: STRING 返回值= http://8.131.245.231:8080
+2021-05-01 22:17:54 INFO com.youceedu.interf.util.ExcelUtil:110 -单元格类型: STRING 返回值= /admin_repasswd_do
+2021-05-01 22:17:54 INFO com.youceedu.interf.util.ExcelUtil:110 -单元格类型: STRING 返回值= oldPasswd=/api/loginCheck:$.stateCode&newPasswd=123456&reNewPasswd=123456
+2021-05-01 22:17:54 INFO com.youceedu.interf.util.ExcelUtil:110 -单元格类型: STRING 返回值= test
+2021-05-01 22:17:54 INFO com.youceedu.interf.util.ExcelUtil:110 -单元格类型: STRING 返回值= NO
+2021-05-01 22:17:54 INFO com.youceedu.interf.util.ExcelUtil:110 -单元格类型: STRING 返回值= test
+2021-05-01 22:17:54 INFO com.youceedu.interf.util.ExcelUtil:133 -excel内测试用例已成功存入到二维数组testcasedata中
+2021-05-01 22:17:54 INFO com.youceedu.interf.util.PatternUtil:45 -得到经过处理后的请求数据reqData= id=123456&passwd=123456
+2021-05-01 22:17:54 INFO com.youceedu.interf.util.PatternUtil:75 -得到Matcher对象
+2021-05-01 22:17:54 INFO com.youceedu.interf.util.PatternUtil:61 -存储depKey: /api/loginCheck:$.stateCode 以及对应的value: 1
+2021-05-01 22:17:54 INFO com.youceedu.interf.util.PatternUtil:75 -得到Matcher对象
+2021-05-01 22:17:54 INFO com.youceedu.interf.util.PatternUtil:94 -对比预期值： 管理员登陆成功 与实际值: 管理员登陆成功
+2021-05-01 22:17:54 INFO com.youceedu.interf.util.PatternUtil:94 -对比预期值： 1 与实际值: 1
+2021-05-01 22:17:54 INFO com.youceedu.interf.util.PatternUtil:45 -得到经过处理后的请求数据reqData= oldPasswd=1&newPasswd=123456&reNewPasswd=123456
+2021-05-01 22:17:54 INFO com.youceedu.interf.util.PatternUtil:75 -得到Matcher对象
+2021-05-05 14:52:58 INFO com.youceedu.interf.util.ExcelUtilTest:25 -传入excel路径 filepath: D:\\testcase.xlsx
+2021-05-05 14:52:58 INFO com.youceedu.interf.util.ExcelUtil:29 -实例化类，入参filename= D:\\testcase.xlsx
+2021-05-05 14:52:58 INFO com.youceedu.interf.util.ExcelUtilTest:65 -给测试方法提供测试数据
+2021-05-05 14:52:58 INFO com.youceedu.interf.util.ExcelUtil:41 -成功得到XSSFWorkbook对象 wb
+2021-05-05 14:52:58 INFO com.youceedu.interf.util.ExcelUtil:53 -成功得到sheet对象
+2021-05-05 14:52:58 INFO com.youceedu.interf.util.ExcelUtil:110 -单元格类型: STRING 返回值= 1
+2021-05-05 14:52:58 INFO com.youceedu.interf.util.ExcelUtil:110 -单元格类型: STRING 返回值= YES
+2021-05-05 14:52:58 INFO com.youceedu.interf.util.ExcelUtil:110 -单元格类型: STRING 返回值= 正确的账号和密码登录
+2021-05-05 14:52:58 INFO com.youceedu.interf.util.ExcelUtil:110 -单元格类型: STRING 返回值= POST
+2021-05-05 14:52:58 INFO com.youceedu.interf.util.ExcelUtil:110 -单元格类型: STRING 返回值= http://8.131.245.231:8080
+2021-05-05 14:52:58 INFO com.youceedu.interf.util.ExcelUtil:110 -单元格类型: STRING 返回值= /api/loginCheck
+2021-05-05 14:52:58 INFO com.youceedu.interf.util.ExcelUtil:110 -单元格类型: STRING 返回值= id=123456&passwd=123456
+2021-05-05 14:52:58 INFO com.youceedu.interf.util.ExcelUtil:110 -单元格类型: STRING 返回值= $.msg=管理员登陆成功;$.stateCode=1
+2021-05-05 14:52:58 INFO com.youceedu.interf.util.ExcelUtil:110 -单元格类型: STRING 返回值= YES
+2021-05-05 14:52:58 INFO com.youceedu.interf.util.ExcelUtil:110 -单元格类型: STRING 返回值= /api/loginCheck:$.stateCode
+2021-05-05 14:52:58 INFO com.youceedu.interf.util.ExcelUtil:110 -单元格类型: STRING 返回值= 2
+2021-05-05 14:52:58 INFO com.youceedu.interf.util.ExcelUtil:110 -单元格类型: STRING 返回值= YES
+2021-05-05 14:52:58 INFO com.youceedu.interf.util.ExcelUtil:110 -单元格类型: STRING 返回值= 修改密码
+2021-05-05 14:52:58 INFO com.youceedu.interf.util.ExcelUtil:110 -单元格类型: STRING 返回值= POST
+2021-05-05 14:52:58 INFO com.youceedu.interf.util.ExcelUtil:110 -单元格类型: STRING 返回值= http://8.131.245.231:8080
+2021-05-05 14:52:58 INFO com.youceedu.interf.util.ExcelUtil:110 -单元格类型: STRING 返回值= /admin_repasswd_do
+2021-05-05 14:52:59 INFO com.youceedu.interf.util.ExcelUtil:110 -单元格类型: STRING 返回值= oldPasswd=/api/loginCheck:$.stateCode&newPasswd=123456&reNewPasswd=123456
+2021-05-05 14:52:59 INFO com.youceedu.interf.util.ExcelUtil:110 -单元格类型: STRING 返回值= test
+2021-05-05 14:52:59 INFO com.youceedu.interf.util.ExcelUtil:110 -单元格类型: STRING 返回值= NO
+2021-05-05 14:52:59 INFO com.youceedu.interf.util.ExcelUtil:110 -单元格类型: STRING 返回值= test
+2021-05-05 14:52:59 INFO com.youceedu.interf.util.ExcelUtil:133 -excel内测试用例已成功存入到二维数组testcasedata中
+2021-05-05 14:52:59 INFO com.youceedu.interf.util.PatternUtil:45 -得到经过处理后的请求数据reqData= id=123456&passwd=123456
+2021-05-05 14:52:59 INFO com.youceedu.interf.util.PatternUtil:75 -得到Matcher对象
+2021-05-05 14:52:59 INFO com.youceedu.interf.util.PatternUtil:61 -存储depKey: /api/loginCheck:$.stateCode 以及对应的value: 1
+2021-05-05 14:52:59 INFO com.youceedu.interf.util.PatternUtil:75 -得到Matcher对象
+2021-05-05 14:52:59 INFO com.youceedu.interf.util.PatternUtil:94 -对比预期值： 管理员登陆成功 与实际值: 管理员登陆成功
+2021-05-05 14:52:59 INFO com.youceedu.interf.util.PatternUtil:94 -对比预期值： 1 与实际值: 1
+2021-05-05 14:52:59 INFO com.youceedu.interf.util.PatternUtil:45 -得到经过处理后的请求数据reqData= oldPasswd=1&newPasswd=123456&reNewPasswd=123456
+2021-05-05 14:52:59 INFO com.youceedu.interf.util.PatternUtil:75 -得到Matcher对象
+2021-05-05 14:52:59 INFO com.youceedu.interf.listener.TestListenerImpl:43 -失败用例去重完成
+2021-05-10 22:13:56 INFO com.youceedu.interf.util.ExcelUtilTest:25 -传入excel路径 filepath: D:\\testcase.xlsx
+2021-05-10 22:13:56 INFO com.youceedu.interf.util.ExcelUtil:29 -实例化类，入参filename= D:\\testcase.xlsx
+2021-05-10 22:13:56 INFO com.youceedu.interf.util.ExcelUtilTest:78 -给测试方法提供测试数据
+2021-05-10 22:13:56 INFO com.youceedu.interf.util.ExcelUtil:41 -成功得到XSSFWorkbook对象 wb
+2021-05-10 22:13:56 INFO com.youceedu.interf.util.ExcelUtil:53 -成功得到sheet对象
+2021-05-10 22:13:56 INFO com.youceedu.interf.util.ExcelUtil:110 -单元格类型: STRING 返回值= 1
+2021-05-10 22:13:56 INFO com.youceedu.interf.util.ExcelUtil:110 -单元格类型: STRING 返回值= YES
+2021-05-10 22:13:56 INFO com.youceedu.interf.util.ExcelUtil:110 -单元格类型: STRING 返回值= 正确的账号和密码登录
+2021-05-10 22:13:56 INFO com.youceedu.interf.util.ExcelUtil:110 -单元格类型: STRING 返回值= POST
+2021-05-10 22:13:56 INFO com.youceedu.interf.util.ExcelUtil:110 -单元格类型: STRING 返回值= http://8.131.245.231:8080
+2021-05-10 22:13:56 INFO com.youceedu.interf.util.ExcelUtil:110 -单元格类型: STRING 返回值= /api/loginCheck
+2021-05-10 22:13:56 INFO com.youceedu.interf.util.ExcelUtil:110 -单元格类型: STRING 返回值= id=123456&passwd=123456&t=${__Random(1,1,100)}
+2021-05-10 22:13:56 INFO com.youceedu.interf.util.ExcelUtil:110 -单元格类型: STRING 返回值= $.msg=管理员登陆成功;$.stateCode=1
+2021-05-10 22:13:56 INFO com.youceedu.interf.util.ExcelUtil:110 -单元格类型: STRING 返回值= NO
+2021-05-10 22:13:56 INFO com.youceedu.interf.util.ExcelUtil:110 -单元格类型: STRING 返回值= /api/loginCheck:$.stateCode
+2021-05-10 22:13:56 INFO com.youceedu.interf.util.ExcelUtil:110 -单元格类型: BLANK 返回值=  
+2021-05-10 22:13:56 INFO com.youceedu.interf.util.ExcelUtil:110 -单元格类型: BLANK 返回值=  
+2021-05-10 22:13:56 INFO com.youceedu.interf.util.ExcelUtil:110 -单元格类型: BLANK 返回值=  
+2021-05-10 22:13:56 INFO com.youceedu.interf.util.ExcelUtil:110 -单元格类型: BLANK 返回值=  
+2021-05-10 22:13:56 INFO com.youceedu.interf.util.ExcelUtil:110 -单元格类型: BLANK 返回值=  
+2021-05-10 22:13:56 INFO com.youceedu.interf.util.ExcelUtil:110 -单元格类型: BLANK 返回值=  
+2021-05-10 22:13:56 INFO com.youceedu.interf.util.ExcelUtil:110 -单元格类型: BLANK 返回值=  
+2021-05-10 22:13:56 INFO com.youceedu.interf.util.ExcelUtil:110 -单元格类型: BLANK 返回值=  
+2021-05-10 22:13:56 INFO com.youceedu.interf.util.ExcelUtil:110 -单元格类型: BLANK 返回值=  
+2021-05-10 22:13:56 INFO com.youceedu.interf.util.ExcelUtil:110 -单元格类型: BLANK 返回值=  
+2021-05-10 22:13:56 INFO com.youceedu.interf.util.ExcelUtil:133 -excel内测试用例已成功存入到二维数组testcasedata中
+2021-05-10 22:13:56 INFO com.youceedu.interf.util.PatternUtil:45 -得到经过处理后的请求数据reqData= id=123456&passwd=123456&t=${__Random(1,1,100)}
+2021-05-10 22:13:57 INFO com.youceedu.interf.util.PatternUtil:75 -得到Matcher对象
+2021-05-10 22:13:57 INFO com.youceedu.interf.util.PatternUtil:94 -对比预期值： 管理员登陆成功 与实际值: 管理员登陆成功
+2021-05-10 22:13:57 INFO com.youceedu.interf.util.PatternUtil:94 -对比预期值： 1 与实际值: 1
+2021-05-10 22:13:57 INFO com.youceedu.interf.util.PatternUtil:45 -得到经过处理后的请求数据reqData=  
+2021-05-10 22:13:57 INFO com.youceedu.interf.util.PatternUtil:75 -得到Matcher对象
+2021-05-10 22:13:57 INFO com.youceedu.interf.listener.TestListenerImpl:43 -失败用例去重完成
+2021-05-10 22:14:54 INFO com.youceedu.interf.util.ExcelUtilTest:25 -传入excel路径 filepath: D:\\testcase.xlsx
+2021-05-10 22:14:54 INFO com.youceedu.interf.util.ExcelUtil:29 -实例化类，入参filename= D:\\testcase.xlsx
+2021-05-10 22:14:54 INFO com.youceedu.interf.util.ExcelUtilTest:78 -给测试方法提供测试数据
+2021-05-10 22:14:54 INFO com.youceedu.interf.util.ExcelUtil:41 -成功得到XSSFWorkbook对象 wb
+2021-05-10 22:14:54 INFO com.youceedu.interf.util.ExcelUtil:53 -成功得到sheet对象
+2021-05-10 22:14:54 INFO com.youceedu.interf.util.ExcelUtil:110 -单元格类型: STRING 返回值= 1
+2021-05-10 22:14:54 INFO com.youceedu.interf.util.ExcelUtil:110 -单元格类型: STRING 返回值= YES
+2021-05-10 22:14:54 INFO com.youceedu.interf.util.ExcelUtil:110 -单元格类型: STRING 返回值= 正确的账号和密码登录
+2021-05-10 22:14:54 INFO com.youceedu.interf.util.ExcelUtil:110 -单元格类型: STRING 返回值= POST
+2021-05-10 22:14:54 INFO com.youceedu.interf.util.ExcelUtil:110 -单元格类型: STRING 返回值= http://8.131.245.231:8080
+2021-05-10 22:14:54 INFO com.youceedu.interf.util.ExcelUtil:110 -单元格类型: STRING 返回值= /api/loginCheck
+2021-05-10 22:14:54 INFO com.youceedu.interf.util.ExcelUtil:110 -单元格类型: STRING 返回值= id=123456&passwd=123456&t=${__Random(1,1,100)}
+2021-05-10 22:14:54 INFO com.youceedu.interf.util.ExcelUtil:110 -单元格类型: STRING 返回值= $.msg=管理员登陆成功;$.stateCode=1
+2021-05-10 22:14:54 INFO com.youceedu.interf.util.ExcelUtil:110 -单元格类型: STRING 返回值= NO
+2021-05-10 22:14:54 INFO com.youceedu.interf.util.ExcelUtil:110 -单元格类型: STRING 返回值= /api/loginCheck:$.stateCode
+2021-05-10 22:14:54 INFO com.youceedu.interf.util.ExcelUtil:133 -excel内测试用例已成功存入到二维数组testcasedata中
+2021-05-10 22:14:54 INFO com.youceedu.interf.util.PatternUtil:45 -得到经过处理后的请求数据reqData= id=123456&passwd=123456&t=${__Random(1,1,100)}
+2021-05-10 22:14:55 INFO com.youceedu.interf.util.PatternUtil:75 -得到Matcher对象
+2021-05-10 22:14:55 INFO com.youceedu.interf.util.PatternUtil:94 -对比预期值： 管理员登陆成功 与实际值: 管理员登陆成功
+2021-05-10 22:14:55 INFO com.youceedu.interf.util.PatternUtil:94 -对比预期值： 1 与实际值: 1
+2021-05-10 22:14:55 INFO com.youceedu.interf.listener.TestListenerImpl:43 -失败用例去重完成
+2021-05-10 22:32:51 INFO com.youceedu.interf.util.ExcelUtilTest:25 -传入excel路径 filepath: D:\\testcase.xlsx
+2021-05-10 22:32:51 INFO com.youceedu.interf.util.ExcelUtil:29 -实例化类，入参filename= D:\\testcase.xlsx
+2021-05-10 22:32:51 INFO com.youceedu.interf.util.ExcelUtilTest:68 -给测试方法提供测试数据
+2021-05-10 22:32:52 INFO com.youceedu.interf.util.ExcelUtil:41 -成功得到XSSFWorkbook对象 wb
+2021-05-10 22:32:52 INFO com.youceedu.interf.util.ExcelUtil:53 -成功得到sheet对象
+2021-05-10 22:32:52 INFO com.youceedu.interf.util.ExcelUtil:110 -单元格类型: STRING 返回值= 1
+2021-05-10 22:32:52 INFO com.youceedu.interf.util.ExcelUtil:110 -单元格类型: STRING 返回值= YES
+2021-05-10 22:32:52 INFO com.youceedu.interf.util.ExcelUtil:110 -单元格类型: STRING 返回值= 正确的账号和密码登录
+2021-05-10 22:32:52 INFO com.youceedu.interf.util.ExcelUtil:110 -单元格类型: STRING 返回值= POST
+2021-05-10 22:32:52 INFO com.youceedu.interf.util.ExcelUtil:110 -单元格类型: STRING 返回值= http://8.131.245.231:8080
+2021-05-10 22:32:52 INFO com.youceedu.interf.util.ExcelUtil:110 -单元格类型: STRING 返回值= /api/loginCheck
+2021-05-10 22:32:52 INFO com.youceedu.interf.util.ExcelUtil:110 -单元格类型: STRING 返回值= id=123456&passwd=123456&t=${__Random(1,1,100)}
+2021-05-10 22:32:52 INFO com.youceedu.interf.util.ExcelUtil:110 -单元格类型: STRING 返回值= $.msg=管理员登陆成功;$.stateCode=1
+2021-05-10 22:32:52 INFO com.youceedu.interf.util.ExcelUtil:110 -单元格类型: STRING 返回值= NO
+2021-05-10 22:32:52 INFO com.youceedu.interf.util.ExcelUtil:110 -单元格类型: STRING 返回值= /api/loginCheck:$.stateCode
+2021-05-10 22:32:52 INFO com.youceedu.interf.util.ExcelUtil:133 -excel内测试用例已成功存入到二维数组testcasedata中
+2021-05-10 22:32:52 INFO com.youceedu.interf.util.PatternUtil:76 -得到Matcher对象
+2021-05-10 22:32:52 INFO com.youceedu.interf.util.PatternUtil:46 -得到经过处理后的请求数据reqData= id=123456&passwd=123456&t=${__Random(1,1,100)}
+2021-05-10 22:32:53 INFO com.youceedu.interf.util.PatternUtil:76 -得到Matcher对象
+2021-05-10 22:32:53 INFO com.youceedu.interf.util.PatternUtil:95 -对比预期值： 管理员登陆成功 与实际值: 管理员登陆成功
+2021-05-10 22:32:53 INFO com.youceedu.interf.util.PatternUtil:95 -对比预期值： 1 与实际值: 1
+2021-05-10 22:32:53 INFO com.youceedu.interf.listener.TestListenerImpl:43 -失败用例去重完成
+2021-05-10 22:53:01 INFO com.youceedu.interf.util.ExcelUtilTest:25 -传入excel路径 filepath: D:\\testcase.xlsx
+2021-05-10 22:53:01 INFO com.youceedu.interf.util.ExcelUtil:29 -实例化类，入参filename= D:\\testcase.xlsx
+2021-05-10 22:53:01 INFO com.youceedu.interf.util.ExcelUtilTest:68 -给测试方法提供测试数据
+2021-05-10 22:53:02 INFO com.youceedu.interf.util.ExcelUtil:41 -成功得到XSSFWorkbook对象 wb
+2021-05-10 22:53:02 INFO com.youceedu.interf.util.ExcelUtil:53 -成功得到sheet对象
+2021-05-10 22:53:02 INFO com.youceedu.interf.util.ExcelUtil:110 -单元格类型: STRING 返回值= 1
+2021-05-10 22:53:02 INFO com.youceedu.interf.util.ExcelUtil:110 -单元格类型: STRING 返回值= YES
+2021-05-10 22:53:02 INFO com.youceedu.interf.util.ExcelUtil:110 -单元格类型: STRING 返回值= 正确的账号和密码登录
+2021-05-10 22:53:02 INFO com.youceedu.interf.util.ExcelUtil:110 -单元格类型: STRING 返回值= POST
+2021-05-10 22:53:02 INFO com.youceedu.interf.util.ExcelUtil:110 -单元格类型: STRING 返回值= http://8.131.245.231:8080
+2021-05-10 22:53:02 INFO com.youceedu.interf.util.ExcelUtil:110 -单元格类型: STRING 返回值= /api/loginCheck
+2021-05-10 22:53:02 INFO com.youceedu.interf.util.ExcelUtil:110 -单元格类型: STRING 返回值= id=123456&passwd=123456&t=${__Random(1,1,100)}
+2021-05-10 22:53:02 INFO com.youceedu.interf.util.ExcelUtil:110 -单元格类型: STRING 返回值= $.msg=管理员登陆成功;$.stateCode=1
+2021-05-10 22:53:02 INFO com.youceedu.interf.util.ExcelUtil:110 -单元格类型: STRING 返回值= NO
+2021-05-10 22:53:02 INFO com.youceedu.interf.util.ExcelUtil:110 -单元格类型: STRING 返回值= /api/loginCheck:$.stateCode
+2021-05-10 22:53:02 INFO com.youceedu.interf.util.ExcelUtil:133 -excel内测试用例已成功存入到二维数组testcasedata中
+2021-05-10 22:53:02 INFO com.youceedu.interf.util.PatternUtil:78 -得到Matcher对象
+2021-05-10 22:53:02 INFO com.youceedu.interf.listener.IRetryAnalyzerImpl:22 -失败用例重试第2 次
+2021-05-10 22:53:02 INFO com.youceedu.interf.util.ExcelUtil:29 -实例化类，入参filename= D:\\testcase.xlsx
+2021-05-10 22:53:02 INFO com.youceedu.interf.util.ExcelUtilTest:68 -给测试方法提供测试数据
+2021-05-10 22:53:02 INFO com.youceedu.interf.util.ExcelUtil:41 -成功得到XSSFWorkbook对象 wb
+2021-05-10 22:53:02 INFO com.youceedu.interf.util.ExcelUtil:53 -成功得到sheet对象
+2021-05-10 22:53:02 INFO com.youceedu.interf.util.ExcelUtil:110 -单元格类型: STRING 返回值= 1
+2021-05-10 22:53:02 INFO com.youceedu.interf.util.ExcelUtil:110 -单元格类型: STRING 返回值= YES
+2021-05-10 22:53:02 INFO com.youceedu.interf.util.ExcelUtil:110 -单元格类型: STRING 返回值= 正确的账号和密码登录
+2021-05-10 22:53:02 INFO com.youceedu.interf.util.ExcelUtil:110 -单元格类型: STRING 返回值= POST
+2021-05-10 22:53:02 INFO com.youceedu.interf.util.ExcelUtil:110 -单元格类型: STRING 返回值= http://8.131.245.231:8080
+2021-05-10 22:53:02 INFO com.youceedu.interf.util.ExcelUtil:110 -单元格类型: STRING 返回值= /api/loginCheck
+2021-05-10 22:53:02 INFO com.youceedu.interf.util.ExcelUtil:110 -单元格类型: STRING 返回值= id=123456&passwd=123456&t=${__Random(1,1,100)}
+2021-05-10 22:53:02 INFO com.youceedu.interf.util.ExcelUtil:110 -单元格类型: STRING 返回值= $.msg=管理员登陆成功;$.stateCode=1
+2021-05-10 22:53:02 INFO com.youceedu.interf.util.ExcelUtil:110 -单元格类型: STRING 返回值= NO
+2021-05-10 22:53:02 INFO com.youceedu.interf.util.ExcelUtil:110 -单元格类型: STRING 返回值= /api/loginCheck:$.stateCode
+2021-05-10 22:53:02 INFO com.youceedu.interf.util.ExcelUtil:133 -excel内测试用例已成功存入到二维数组testcasedata中
+2021-05-10 22:53:02 INFO com.youceedu.interf.util.PatternUtil:78 -得到Matcher对象
+2021-05-10 22:53:02 INFO com.youceedu.interf.listener.IRetryAnalyzerImpl:22 -失败用例重试第3 次
+2021-05-10 22:53:02 INFO com.youceedu.interf.util.ExcelUtil:29 -实例化类，入参filename= D:\\testcase.xlsx
+2021-05-10 22:53:02 INFO com.youceedu.interf.util.ExcelUtilTest:68 -给测试方法提供测试数据
+2021-05-10 22:53:02 INFO com.youceedu.interf.util.ExcelUtil:41 -成功得到XSSFWorkbook对象 wb
+2021-05-10 22:53:02 INFO com.youceedu.interf.util.ExcelUtil:53 -成功得到sheet对象
+2021-05-10 22:53:02 INFO com.youceedu.interf.util.ExcelUtil:110 -单元格类型: STRING 返回值= 1
+2021-05-10 22:53:02 INFO com.youceedu.interf.util.ExcelUtil:110 -单元格类型: STRING 返回值= YES
+2021-05-10 22:53:02 INFO com.youceedu.interf.util.ExcelUtil:110 -单元格类型: STRING 返回值= 正确的账号和密码登录
+2021-05-10 22:53:02 INFO com.youceedu.interf.util.ExcelUtil:110 -单元格类型: STRING 返回值= POST
+2021-05-10 22:53:02 INFO com.youceedu.interf.util.ExcelUtil:110 -单元格类型: STRING 返回值= http://8.131.245.231:8080
+2021-05-10 22:53:02 INFO com.youceedu.interf.util.ExcelUtil:110 -单元格类型: STRING 返回值= /api/loginCheck
+2021-05-10 22:53:02 INFO com.youceedu.interf.util.ExcelUtil:110 -单元格类型: STRING 返回值= id=123456&passwd=123456&t=${__Random(1,1,100)}
+2021-05-10 22:53:02 INFO com.youceedu.interf.util.ExcelUtil:110 -单元格类型: STRING 返回值= $.msg=管理员登陆成功;$.stateCode=1
+2021-05-10 22:53:02 INFO com.youceedu.interf.util.ExcelUtil:110 -单元格类型: STRING 返回值= NO
+2021-05-10 22:53:02 INFO com.youceedu.interf.util.ExcelUtil:110 -单元格类型: STRING 返回值= /api/loginCheck:$.stateCode
+2021-05-10 22:53:02 INFO com.youceedu.interf.util.ExcelUtil:133 -excel内测试用例已成功存入到二维数组testcasedata中
+2021-05-10 22:53:02 INFO com.youceedu.interf.util.PatternUtil:78 -得到Matcher对象
+2021-05-10 22:53:02 INFO com.youceedu.interf.listener.IRetryAnalyzerImpl:22 -失败用例重试第4 次
+2021-05-10 22:53:02 INFO com.youceedu.interf.util.ExcelUtil:29 -实例化类，入参filename= D:\\testcase.xlsx
+2021-05-10 22:53:02 INFO com.youceedu.interf.util.ExcelUtilTest:68 -给测试方法提供测试数据
+2021-05-10 22:53:02 INFO com.youceedu.interf.util.ExcelUtil:41 -成功得到XSSFWorkbook对象 wb
+2021-05-10 22:53:02 INFO com.youceedu.interf.util.ExcelUtil:53 -成功得到sheet对象
+2021-05-10 22:53:02 INFO com.youceedu.interf.util.ExcelUtil:110 -单元格类型: STRING 返回值= 1
+2021-05-10 22:53:02 INFO com.youceedu.interf.util.ExcelUtil:110 -单元格类型: STRING 返回值= YES
+2021-05-10 22:53:02 INFO com.youceedu.interf.util.ExcelUtil:110 -单元格类型: STRING 返回值= 正确的账号和密码登录
+2021-05-10 22:53:02 INFO com.youceedu.interf.util.ExcelUtil:110 -单元格类型: STRING 返回值= POST
+2021-05-10 22:53:02 INFO com.youceedu.interf.util.ExcelUtil:110 -单元格类型: STRING 返回值= http://8.131.245.231:8080
+2021-05-10 22:53:02 INFO com.youceedu.interf.util.ExcelUtil:110 -单元格类型: STRING 返回值= /api/loginCheck
+2021-05-10 22:53:02 INFO com.youceedu.interf.util.ExcelUtil:110 -单元格类型: STRING 返回值= id=123456&passwd=123456&t=${__Random(1,1,100)}
+2021-05-10 22:53:02 INFO com.youceedu.interf.util.ExcelUtil:110 -单元格类型: STRING 返回值= $.msg=管理员登陆成功;$.stateCode=1
+2021-05-10 22:53:02 INFO com.youceedu.interf.util.ExcelUtil:110 -单元格类型: STRING 返回值= NO
+2021-05-10 22:53:02 INFO com.youceedu.interf.util.ExcelUtil:110 -单元格类型: STRING 返回值= /api/loginCheck:$.stateCode
+2021-05-10 22:53:02 INFO com.youceedu.interf.util.ExcelUtil:133 -excel内测试用例已成功存入到二维数组testcasedata中
+2021-05-10 22:53:02 INFO com.youceedu.interf.util.PatternUtil:78 -得到Matcher对象
+2021-05-10 22:53:02 INFO com.youceedu.interf.listener.TestListenerImpl:43 -失败用例去重完成
+2021-05-10 22:53:24 INFO com.youceedu.interf.util.ExcelUtilTest:25 -传入excel路径 filepath: D:\\testcase.xlsx
+2021-05-10 22:53:24 INFO com.youceedu.interf.util.ExcelUtil:29 -实例化类，入参filename= D:\\testcase.xlsx
+2021-05-10 22:53:24 INFO com.youceedu.interf.util.ExcelUtilTest:68 -给测试方法提供测试数据
+2021-05-10 22:53:25 INFO com.youceedu.interf.util.ExcelUtil:41 -成功得到XSSFWorkbook对象 wb
+2021-05-10 22:53:25 INFO com.youceedu.interf.util.ExcelUtil:53 -成功得到sheet对象
+2021-05-10 22:53:25 INFO com.youceedu.interf.util.ExcelUtil:110 -单元格类型: STRING 返回值= 1
+2021-05-10 22:53:25 INFO com.youceedu.interf.util.ExcelUtil:110 -单元格类型: STRING 返回值= YES
+2021-05-10 22:53:25 INFO com.youceedu.interf.util.ExcelUtil:110 -单元格类型: STRING 返回值= 正确的账号和密码登录
+2021-05-10 22:53:25 INFO com.youceedu.interf.util.ExcelUtil:110 -单元格类型: STRING 返回值= POST
+2021-05-10 22:53:25 INFO com.youceedu.interf.util.ExcelUtil:110 -单元格类型: STRING 返回值= http://8.131.245.231:8080
+2021-05-10 22:53:25 INFO com.youceedu.interf.util.ExcelUtil:110 -单元格类型: STRING 返回值= /api/loginCheck
+2021-05-10 22:53:25 INFO com.youceedu.interf.util.ExcelUtil:110 -单元格类型: STRING 返回值= id=123456&passwd=123456&t=${__Random(1,1,100)}
+2021-05-10 22:53:25 INFO com.youceedu.interf.util.ExcelUtil:110 -单元格类型: STRING 返回值= $.msg=管理员登陆成功;$.stateCode=1
+2021-05-10 22:53:25 INFO com.youceedu.interf.util.ExcelUtil:110 -单元格类型: STRING 返回值= NO
+2021-05-10 22:53:25 INFO com.youceedu.interf.util.ExcelUtil:110 -单元格类型: STRING 返回值= /api/loginCheck:$.stateCode
+2021-05-10 22:53:25 INFO com.youceedu.interf.util.ExcelUtil:133 -excel内测试用例已成功存入到二维数组testcasedata中
+2021-05-10 22:53:25 INFO com.youceedu.interf.util.PatternUtil:78 -得到Matcher对象
+2021-05-10 22:53:25 INFO com.youceedu.interf.util.PatternUtil:48 -得到经过处理后的请求数据reqData= id=123456&passwd=123456&t=${__Random(1,1,100)}
+2021-05-10 22:53:25 INFO com.youceedu.interf.util.PatternUtil:78 -得到Matcher对象
+2021-05-10 22:53:25 INFO com.youceedu.interf.util.PatternUtil:97 -对比预期值： 管理员登陆成功 与实际值: 管理员登陆成功
+2021-05-10 22:53:25 INFO com.youceedu.interf.util.PatternUtil:97 -对比预期值： 1 与实际值: 1
+2021-05-10 22:53:25 INFO com.youceedu.interf.listener.TestListenerImpl:43 -失败用例去重完成
+2021-05-10 23:13:16 INFO com.youceedu.interf.util.ExcelUtilTest:25 -传入excel路径 filepath: D:\\testcase.xlsx
+2021-05-10 23:13:16 INFO com.youceedu.interf.util.ExcelUtil:29 -实例化类，入参filename= D:\\testcase.xlsx
+2021-05-10 23:13:16 INFO com.youceedu.interf.util.ExcelUtilTest:69 -给测试方法提供测试数据
+2021-05-10 23:13:17 INFO com.youceedu.interf.util.ExcelUtil:41 -成功得到XSSFWorkbook对象 wb
+2021-05-10 23:13:17 INFO com.youceedu.interf.util.ExcelUtil:53 -成功得到sheet对象
+2021-05-10 23:13:17 INFO com.youceedu.interf.util.ExcelUtil:110 -单元格类型: STRING 返回值= 1
+2021-05-10 23:13:17 INFO com.youceedu.interf.util.ExcelUtil:110 -单元格类型: STRING 返回值= YES
+2021-05-10 23:13:17 INFO com.youceedu.interf.util.ExcelUtil:110 -单元格类型: STRING 返回值= 正确的账号和密码登录
+2021-05-10 23:13:17 INFO com.youceedu.interf.util.ExcelUtil:110 -单元格类型: STRING 返回值= POST
+2021-05-10 23:13:17 INFO com.youceedu.interf.util.ExcelUtil:110 -单元格类型: STRING 返回值= http://8.131.245.231:8080
+2021-05-10 23:13:17 INFO com.youceedu.interf.util.ExcelUtil:110 -单元格类型: STRING 返回值= /api/loginCheck
+2021-05-10 23:13:17 INFO com.youceedu.interf.util.ExcelUtil:110 -单元格类型: STRING 返回值= id=123456&passwd=123456&t=${__Random(1,1,100)}
+2021-05-10 23:13:17 INFO com.youceedu.interf.util.ExcelUtil:110 -单元格类型: STRING 返回值= $.msg=管理员登陆成功;$.stateCode=1
+2021-05-10 23:13:17 INFO com.youceedu.interf.util.ExcelUtil:110 -单元格类型: STRING 返回值= NO
+2021-05-10 23:13:17 INFO com.youceedu.interf.util.ExcelUtil:110 -单元格类型: STRING 返回值= /api/loginCheck:$.stateCode
+2021-05-10 23:13:17 INFO com.youceedu.interf.util.ExcelUtil:133 -excel内测试用例已成功存入到二维数组testcasedata中
+2021-05-10 23:13:17 INFO com.youceedu.interf.util.PatternUtil:78 -得到Matcher对象
+2021-05-10 23:13:17 INFO com.youceedu.interf.util.PatternUtil:48 -得到经过处理后的请求数据reqData= id=123456&passwd=123456&t=45
+2021-05-10 23:13:18 INFO com.youceedu.interf.util.PatternUtil:78 -得到Matcher对象
+2021-05-10 23:13:18 INFO com.youceedu.interf.util.PatternUtil:97 -对比预期值： 管理员登陆成功 与实际值: 管理员登陆成功
+2021-05-10 23:13:18 INFO com.youceedu.interf.util.PatternUtil:97 -对比预期值： 1 与实际值: 1
+2021-05-10 23:13:18 INFO com.youceedu.interf.listener.TestListenerImpl:43 -失败用例去重完成
+2021-05-17 21:45:21 INFO com.youceedu.interf.util.ExcelUtilTest:25 -传入excel路径 filepath: D:\\testcase.xlsx
+2021-05-17 21:45:21 INFO com.youceedu.interf.util.ExcelUtil:29 -实例化类，入参filename= D:\\testcase.xlsx
+2021-05-17 21:45:21 INFO com.youceedu.interf.util.ExcelUtilTest:69 -给测试方法提供测试数据
+2021-05-17 21:45:21 INFO com.youceedu.interf.util.ExcelUtil:41 -成功得到XSSFWorkbook对象 wb
+2021-05-17 21:45:21 INFO com.youceedu.interf.util.ExcelUtil:53 -成功得到sheet对象
+2021-05-17 21:45:21 INFO com.youceedu.interf.util.ExcelUtil:110 -单元格类型: STRING 返回值= 1
+2021-05-17 21:45:21 INFO com.youceedu.interf.util.ExcelUtil:110 -单元格类型: STRING 返回值= YES
+2021-05-17 21:45:21 INFO com.youceedu.interf.util.ExcelUtil:110 -单元格类型: STRING 返回值= 正确的账号和密码登录
+2021-05-17 21:45:21 INFO com.youceedu.interf.util.ExcelUtil:110 -单元格类型: STRING 返回值= POST
+2021-05-17 21:45:21 INFO com.youceedu.interf.util.ExcelUtil:110 -单元格类型: STRING 返回值= http://8.131.245.231:8080
+2021-05-17 21:45:21 INFO com.youceedu.interf.util.ExcelUtil:110 -单元格类型: STRING 返回值= /api/loginCheck
+2021-05-17 21:45:21 INFO com.youceedu.interf.util.ExcelUtil:110 -单元格类型: STRING 返回值= id=123456&passwd=123456&t=${__Random(1,1,100)}
+2021-05-17 21:45:21 INFO com.youceedu.interf.util.ExcelUtil:110 -单元格类型: STRING 返回值= $.msg=管理员登陆成功;$.stateCode=1
+2021-05-17 21:45:21 INFO com.youceedu.interf.util.ExcelUtil:110 -单元格类型: STRING 返回值= NO
+2021-05-17 21:45:21 INFO com.youceedu.interf.util.ExcelUtil:110 -单元格类型: STRING 返回值= /api/loginCheck:$.stateCode
+2021-05-17 21:45:21 INFO com.youceedu.interf.util.ExcelUtil:133 -excel内测试用例已成功存入到二维数组testcasedata中
+2021-05-17 21:45:22 INFO com.youceedu.interf.util.PatternUtil:82 -得到Matcher对象
+2021-05-17 21:45:22 INFO com.youceedu.interf.util.PatternUtil:52 -得到经过处理后的请求数据reqData= id=123456&passwd=123456&t=${__Random(1,1,100)}
+2021-05-17 21:45:22 INFO com.youceedu.interf.util.PatternUtil:82 -得到Matcher对象
+2021-05-17 21:45:22 INFO com.youceedu.interf.util.PatternUtil:101 -对比预期值： 管理员登陆成功 与实际值: 管理员登陆成功
+2021-05-17 21:45:22 INFO com.youceedu.interf.util.PatternUtil:101 -对比预期值： 1 与实际值: 1
+2021-05-17 21:45:22 INFO com.youceedu.interf.listener.TestListenerImpl:43 -失败用例去重完成
+2021-05-17 21:45:45 INFO com.youceedu.interf.util.ExcelUtilTest:25 -传入excel路径 filepath: D:\\testcase.xlsx
+2021-05-17 21:45:45 INFO com.youceedu.interf.util.ExcelUtil:29 -实例化类，入参filename= D:\\testcase.xlsx
+2021-05-17 21:45:45 INFO com.youceedu.interf.util.ExcelUtilTest:69 -给测试方法提供测试数据
+2021-05-17 21:45:46 INFO com.youceedu.interf.util.ExcelUtil:41 -成功得到XSSFWorkbook对象 wb
+2021-05-17 21:45:46 INFO com.youceedu.interf.util.ExcelUtil:53 -成功得到sheet对象
+2021-05-17 21:45:46 INFO com.youceedu.interf.util.ExcelUtil:110 -单元格类型: STRING 返回值= 1
+2021-05-17 21:45:46 INFO com.youceedu.interf.util.ExcelUtil:110 -单元格类型: STRING 返回值= YES
+2021-05-17 21:45:46 INFO com.youceedu.interf.util.ExcelUtil:110 -单元格类型: STRING 返回值= 正确的账号和密码登录
+2021-05-17 21:45:46 INFO com.youceedu.interf.util.ExcelUtil:110 -单元格类型: STRING 返回值= POST
+2021-05-17 21:45:46 INFO com.youceedu.interf.util.ExcelUtil:110 -单元格类型: STRING 返回值= http://8.131.245.231:8080
+2021-05-17 21:45:46 INFO com.youceedu.interf.util.ExcelUtil:110 -单元格类型: STRING 返回值= /api/loginCheck
+2021-05-17 21:45:46 INFO com.youceedu.interf.util.ExcelUtil:110 -单元格类型: STRING 返回值= id=123456&passwd=123456&t=${__Random(1,1,100)}
+2021-05-17 21:45:46 INFO com.youceedu.interf.util.ExcelUtil:110 -单元格类型: STRING 返回值= $.msg=管理员登陆成功;$.stateCode=1
+2021-05-17 21:45:46 INFO com.youceedu.interf.util.ExcelUtil:110 -单元格类型: STRING 返回值= NO
+2021-05-17 21:45:46 INFO com.youceedu.interf.util.ExcelUtil:110 -单元格类型: STRING 返回值= /api/loginCheck:$.stateCode
+2021-05-17 21:45:46 INFO com.youceedu.interf.util.ExcelUtil:133 -excel内测试用例已成功存入到二维数组testcasedata中
+2021-05-17 21:45:46 INFO com.youceedu.interf.util.PatternUtil:82 -得到Matcher对象
+2021-05-17 21:45:46 INFO com.youceedu.interf.util.PatternUtil:52 -得到经过处理后的请求数据reqData= id=123456&passwd=123456&t=${__Random(1,1,100)}
+2021-05-17 21:45:46 INFO com.youceedu.interf.util.PatternUtil:82 -得到Matcher对象
+2021-05-17 21:45:46 INFO com.youceedu.interf.util.PatternUtil:101 -对比预期值： 管理员登陆成功 与实际值: 管理员登陆成功
+2021-05-17 21:45:46 INFO com.youceedu.interf.util.PatternUtil:101 -对比预期值： 1 与实际值: 1
+2021-05-17 21:45:46 INFO com.youceedu.interf.listener.TestListenerImpl:43 -失败用例去重完成
+2021-05-17 21:46:41 INFO com.youceedu.interf.util.ExcelUtilTest:25 -传入excel路径 filepath: D:\\testcase.xlsx
+2021-05-17 21:46:41 INFO com.youceedu.interf.util.ExcelUtil:29 -实例化类，入参filename= D:\\testcase.xlsx
+2021-05-17 21:46:41 INFO com.youceedu.interf.util.ExcelUtilTest:69 -给测试方法提供测试数据
+2021-05-17 21:46:42 INFO com.youceedu.interf.util.ExcelUtil:41 -成功得到XSSFWorkbook对象 wb
+2021-05-17 21:46:42 INFO com.youceedu.interf.util.ExcelUtil:53 -成功得到sheet对象
+2021-05-17 21:46:42 INFO com.youceedu.interf.util.ExcelUtil:110 -单元格类型: STRING 返回值= 1
+2021-05-17 21:46:42 INFO com.youceedu.interf.util.ExcelUtil:110 -单元格类型: STRING 返回值= YES
+2021-05-17 21:46:42 INFO com.youceedu.interf.util.ExcelUtil:110 -单元格类型: STRING 返回值= 正确的账号和密码登录
+2021-05-17 21:46:42 INFO com.youceedu.interf.util.ExcelUtil:110 -单元格类型: STRING 返回值= POST
+2021-05-17 21:46:42 INFO com.youceedu.interf.util.ExcelUtil:110 -单元格类型: STRING 返回值= http://8.131.245.231:8080
+2021-05-17 21:46:42 INFO com.youceedu.interf.util.ExcelUtil:110 -单元格类型: STRING 返回值= /api/loginCheck
+2021-05-17 21:46:42 INFO com.youceedu.interf.util.ExcelUtil:110 -单元格类型: STRING 返回值= id=123456&passwd=123456&t=${__Random(1,1,100)}
+2021-05-17 21:46:42 INFO com.youceedu.interf.util.ExcelUtil:110 -单元格类型: STRING 返回值= $.msg=管理员登陆成功;$.stateCode=1
+2021-05-17 21:46:42 INFO com.youceedu.interf.util.ExcelUtil:110 -单元格类型: STRING 返回值= NO
+2021-05-17 21:46:42 INFO com.youceedu.interf.util.ExcelUtil:110 -单元格类型: STRING 返回值= /api/loginCheck:$.stateCode
+2021-05-17 21:46:42 INFO com.youceedu.interf.util.ExcelUtil:133 -excel内测试用例已成功存入到二维数组testcasedata中
+2021-05-17 21:46:42 INFO com.youceedu.interf.util.PatternUtil:82 -得到Matcher对象
+2021-05-17 21:46:42 INFO com.youceedu.interf.util.PatternUtil:52 -得到经过处理后的请求数据reqData= id=123456&passwd=123456&t=${__Random(1,1,100)}
+2021-05-17 21:46:43 INFO com.youceedu.interf.util.PatternUtil:82 -得到Matcher对象
+2021-05-17 21:46:43 INFO com.youceedu.interf.util.PatternUtil:101 -对比预期值： 管理员登陆成功 与实际值: 管理员登陆成功
+2021-05-17 21:46:43 INFO com.youceedu.interf.util.PatternUtil:101 -对比预期值： 1 与实际值: 1
+2021-05-17 21:46:43 INFO com.youceedu.interf.listener.TestListenerImpl:43 -失败用例去重完成
+2021-05-17 21:47:12 INFO com.youceedu.interf.util.ExcelUtilTest:25 -传入excel路径 filepath: D:\\testcase.xlsx
+2021-05-17 21:47:12 INFO com.youceedu.interf.util.ExcelUtil:29 -实例化类，入参filename= D:\\testcase.xlsx
+2021-05-17 21:47:12 INFO com.youceedu.interf.util.ExcelUtilTest:69 -给测试方法提供测试数据
+2021-05-17 21:47:13 INFO com.youceedu.interf.util.ExcelUtil:41 -成功得到XSSFWorkbook对象 wb
+2021-05-17 21:47:13 INFO com.youceedu.interf.util.ExcelUtil:53 -成功得到sheet对象
+2021-05-17 21:47:13 INFO com.youceedu.interf.util.ExcelUtil:110 -单元格类型: STRING 返回值= 1
+2021-05-17 21:47:13 INFO com.youceedu.interf.util.ExcelUtil:110 -单元格类型: STRING 返回值= YES
+2021-05-17 21:47:13 INFO com.youceedu.interf.util.ExcelUtil:110 -单元格类型: STRING 返回值= 正确的账号和密码登录
+2021-05-17 21:47:13 INFO com.youceedu.interf.util.ExcelUtil:110 -单元格类型: STRING 返回值= POST
+2021-05-17 21:47:13 INFO com.youceedu.interf.util.ExcelUtil:110 -单元格类型: STRING 返回值= http://8.131.245.231:8080
+2021-05-17 21:47:13 INFO com.youceedu.interf.util.ExcelUtil:110 -单元格类型: STRING 返回值= /api/loginCheck
+2021-05-17 21:47:13 INFO com.youceedu.interf.util.ExcelUtil:110 -单元格类型: STRING 返回值= id=123456&passwd=123456&t=${__Random(1,1,100)}
+2021-05-17 21:47:13 INFO com.youceedu.interf.util.ExcelUtil:110 -单元格类型: STRING 返回值= $.msg=管理员登陆成功;$.stateCode=1
+2021-05-17 21:47:13 INFO com.youceedu.interf.util.ExcelUtil:110 -单元格类型: STRING 返回值= NO
+2021-05-17 21:47:13 INFO com.youceedu.interf.util.ExcelUtil:110 -单元格类型: STRING 返回值= /api/loginCheck:$.stateCode
+2021-05-17 21:47:13 INFO com.youceedu.interf.util.ExcelUtil:133 -excel内测试用例已成功存入到二维数组testcasedata中
+2021-05-17 21:47:13 INFO com.youceedu.interf.util.PatternUtil:82 -得到Matcher对象
+2021-05-17 21:47:13 INFO com.youceedu.interf.util.PatternUtil:52 -得到经过处理后的请求数据reqData= id=123456&passwd=123456&t=${__Random(1,1,100)}
+2021-05-17 21:47:14 INFO com.youceedu.interf.util.PatternUtil:82 -得到Matcher对象
+2021-05-17 21:47:14 INFO com.youceedu.interf.util.PatternUtil:101 -对比预期值： 管理员登陆成功 与实际值: 管理员登陆成功
+2021-05-17 21:47:14 INFO com.youceedu.interf.util.PatternUtil:101 -对比预期值： 1 与实际值: 1
+2021-05-17 21:47:14 INFO com.youceedu.interf.listener.TestListenerImpl:43 -失败用例去重完成
+2021-05-17 21:47:37 INFO com.youceedu.interf.util.ExcelUtilTest:25 -传入excel路径 filepath: D:\\testcase.xlsx
+2021-05-17 21:47:37 INFO com.youceedu.interf.util.ExcelUtil:29 -实例化类，入参filename= D:\\testcase.xlsx
+2021-05-17 21:47:37 INFO com.youceedu.interf.util.ExcelUtilTest:69 -给测试方法提供测试数据
+2021-05-17 21:47:37 INFO com.youceedu.interf.util.ExcelUtil:41 -成功得到XSSFWorkbook对象 wb
+2021-05-17 21:47:37 INFO com.youceedu.interf.util.ExcelUtil:53 -成功得到sheet对象
+2021-05-17 21:47:37 INFO com.youceedu.interf.util.ExcelUtil:110 -单元格类型: STRING 返回值= 1
+2021-05-17 21:47:37 INFO com.youceedu.interf.util.ExcelUtil:110 -单元格类型: STRING 返回值= YES
+2021-05-17 21:47:37 INFO com.youceedu.interf.util.ExcelUtil:110 -单元格类型: STRING 返回值= 正确的账号和密码登录
+2021-05-17 21:47:37 INFO com.youceedu.interf.util.ExcelUtil:110 -单元格类型: STRING 返回值= POST
+2021-05-17 21:47:37 INFO com.youceedu.interf.util.ExcelUtil:110 -单元格类型: STRING 返回值= http://8.131.245.231:8080
+2021-05-17 21:47:37 INFO com.youceedu.interf.util.ExcelUtil:110 -单元格类型: STRING 返回值= /api/loginCheck
+2021-05-17 21:47:37 INFO com.youceedu.interf.util.ExcelUtil:110 -单元格类型: STRING 返回值= id=123456&passwd=123456&t=${__Random(1,1,100)}
+2021-05-17 21:47:37 INFO com.youceedu.interf.util.ExcelUtil:110 -单元格类型: STRING 返回值= $.msg=管理员登陆成功;$.stateCode=1
+2021-05-17 21:47:37 INFO com.youceedu.interf.util.ExcelUtil:110 -单元格类型: STRING 返回值= NO
+2021-05-17 21:47:37 INFO com.youceedu.interf.util.ExcelUtil:110 -单元格类型: STRING 返回值= /api/loginCheck:$.stateCode
+2021-05-17 21:47:37 INFO com.youceedu.interf.util.ExcelUtil:133 -excel内测试用例已成功存入到二维数组testcasedata中
+2021-05-17 21:47:37 INFO com.youceedu.interf.util.PatternUtil:82 -得到Matcher对象
+2021-05-17 21:47:37 INFO com.youceedu.interf.util.PatternUtil:52 -得到经过处理后的请求数据reqData= id=123456&passwd=123456&t=${__Random(1,1,100)}
+2021-05-17 21:47:38 INFO com.youceedu.interf.util.PatternUtil:82 -得到Matcher对象
+2021-05-17 21:47:38 INFO com.youceedu.interf.util.PatternUtil:101 -对比预期值： 管理员登陆成功 与实际值: 管理员登陆成功
+2021-05-17 21:47:38 INFO com.youceedu.interf.util.PatternUtil:101 -对比预期值： 1 与实际值: 1
+2021-05-17 21:47:38 INFO com.youceedu.interf.listener.TestListenerImpl:43 -失败用例去重完成
+2021-05-17 21:47:48 INFO com.youceedu.interf.util.ExcelUtilTest:25 -传入excel路径 filepath: D:\\testcase.xlsx
+2021-05-17 21:47:48 INFO com.youceedu.interf.util.ExcelUtil:29 -实例化类，入参filename= D:\\testcase.xlsx
+2021-05-17 21:47:48 INFO com.youceedu.interf.util.ExcelUtilTest:69 -给测试方法提供测试数据
+2021-05-17 21:47:49 INFO com.youceedu.interf.util.ExcelUtil:41 -成功得到XSSFWorkbook对象 wb
+2021-05-17 21:47:49 INFO com.youceedu.interf.util.ExcelUtil:53 -成功得到sheet对象
+2021-05-17 21:47:49 INFO com.youceedu.interf.util.ExcelUtil:110 -单元格类型: STRING 返回值= 1
+2021-05-17 21:47:49 INFO com.youceedu.interf.util.ExcelUtil:110 -单元格类型: STRING 返回值= YES
+2021-05-17 21:47:49 INFO com.youceedu.interf.util.ExcelUtil:110 -单元格类型: STRING 返回值= 正确的账号和密码登录
+2021-05-17 21:47:49 INFO com.youceedu.interf.util.ExcelUtil:110 -单元格类型: STRING 返回值= POST
+2021-05-17 21:47:49 INFO com.youceedu.interf.util.ExcelUtil:110 -单元格类型: STRING 返回值= http://8.131.245.231:8080
+2021-05-17 21:47:49 INFO com.youceedu.interf.util.ExcelUtil:110 -单元格类型: STRING 返回值= /api/loginCheck
+2021-05-17 21:47:49 INFO com.youceedu.interf.util.ExcelUtil:110 -单元格类型: STRING 返回值= id=123456&passwd=123456&t=${__Random(1,1,100)}
+2021-05-17 21:47:49 INFO com.youceedu.interf.util.ExcelUtil:110 -单元格类型: STRING 返回值= $.msg=管理员登陆成功;$.stateCode=1
+2021-05-17 21:47:49 INFO com.youceedu.interf.util.ExcelUtil:110 -单元格类型: STRING 返回值= NO
+2021-05-17 21:47:49 INFO com.youceedu.interf.util.ExcelUtil:110 -单元格类型: STRING 返回值= /api/loginCheck:$.stateCode
+2021-05-17 21:47:49 INFO com.youceedu.interf.util.ExcelUtil:133 -excel内测试用例已成功存入到二维数组testcasedata中
+2021-05-17 21:47:49 INFO com.youceedu.interf.util.PatternUtil:82 -得到Matcher对象
+2021-05-17 21:47:49 INFO com.youceedu.interf.util.PatternUtil:52 -得到经过处理后的请求数据reqData= id=123456&passwd=123456&t=${__Random(1,1,100)}
+2021-05-17 21:47:49 INFO com.youceedu.interf.util.PatternUtil:82 -得到Matcher对象
+2021-05-17 21:47:50 INFO com.youceedu.interf.util.PatternUtil:101 -对比预期值： 管理员登陆成功 与实际值: 管理员登陆成功
+2021-05-17 21:47:50 INFO com.youceedu.interf.util.PatternUtil:101 -对比预期值： 1 与实际值: 1
+2021-05-17 21:47:50 INFO com.youceedu.interf.listener.TestListenerImpl:43 -失败用例去重完成
+2021-05-17 21:47:58 INFO com.youceedu.interf.util.ExcelUtilTest:25 -传入excel路径 filepath: D:\\testcase.xlsx
+2021-05-17 21:47:58 INFO com.youceedu.interf.util.ExcelUtil:29 -实例化类，入参filename= D:\\testcase.xlsx
+2021-05-17 21:47:58 INFO com.youceedu.interf.util.ExcelUtilTest:69 -给测试方法提供测试数据
+2021-05-17 21:47:58 INFO com.youceedu.interf.util.ExcelUtil:41 -成功得到XSSFWorkbook对象 wb
+2021-05-17 21:47:58 INFO com.youceedu.interf.util.ExcelUtil:53 -成功得到sheet对象
+2021-05-17 21:47:58 INFO com.youceedu.interf.util.ExcelUtil:110 -单元格类型: STRING 返回值= 1
+2021-05-17 21:47:58 INFO com.youceedu.interf.util.ExcelUtil:110 -单元格类型: STRING 返回值= YES
+2021-05-17 21:47:58 INFO com.youceedu.interf.util.ExcelUtil:110 -单元格类型: STRING 返回值= 正确的账号和密码登录
+2021-05-17 21:47:58 INFO com.youceedu.interf.util.ExcelUtil:110 -单元格类型: STRING 返回值= POST
+2021-05-17 21:47:58 INFO com.youceedu.interf.util.ExcelUtil:110 -单元格类型: STRING 返回值= http://8.131.245.231:8080
+2021-05-17 21:47:58 INFO com.youceedu.interf.util.ExcelUtil:110 -单元格类型: STRING 返回值= /api/loginCheck
+2021-05-17 21:47:58 INFO com.youceedu.interf.util.ExcelUtil:110 -单元格类型: STRING 返回值= id=123456&passwd=123456&t=${__Random(1,1,100)}
+2021-05-17 21:47:58 INFO com.youceedu.interf.util.ExcelUtil:110 -单元格类型: STRING 返回值= $.msg=管理员登陆成功;$.stateCode=1
+2021-05-17 21:47:58 INFO com.youceedu.interf.util.ExcelUtil:110 -单元格类型: STRING 返回值= NO
+2021-05-17 21:47:58 INFO com.youceedu.interf.util.ExcelUtil:110 -单元格类型: STRING 返回值= /api/loginCheck:$.stateCode
+2021-05-17 21:47:58 INFO com.youceedu.interf.util.ExcelUtil:133 -excel内测试用例已成功存入到二维数组testcasedata中
+2021-05-17 21:47:58 INFO com.youceedu.interf.util.PatternUtil:82 -得到Matcher对象
+2021-05-17 21:47:58 INFO com.youceedu.interf.util.PatternUtil:52 -得到经过处理后的请求数据reqData= id=123456&passwd=123456&t=${__Random(1,1,100)}
+2021-05-17 21:47:59 INFO com.youceedu.interf.util.PatternUtil:82 -得到Matcher对象
+2021-05-17 21:47:59 INFO com.youceedu.interf.util.PatternUtil:101 -对比预期值： 管理员登陆成功 与实际值: 管理员登陆成功
+2021-05-17 21:47:59 INFO com.youceedu.interf.util.PatternUtil:101 -对比预期值： 1 与实际值: 1
+2021-05-17 21:47:59 INFO com.youceedu.interf.listener.TestListenerImpl:43 -失败用例去重完成
+2021-05-17 21:49:02 INFO com.youceedu.interf.util.ExcelUtilTest:25 -传入excel路径 filepath: D:\\testcase.xlsx
+2021-05-17 21:49:02 INFO com.youceedu.interf.util.ExcelUtil:29 -实例化类，入参filename= D:\\testcase.xlsx
+2021-05-17 21:49:02 INFO com.youceedu.interf.util.ExcelUtilTest:69 -给测试方法提供测试数据
+2021-05-17 21:49:02 INFO com.youceedu.interf.util.ExcelUtil:41 -成功得到XSSFWorkbook对象 wb
+2021-05-17 21:49:02 INFO com.youceedu.interf.util.ExcelUtil:53 -成功得到sheet对象
+2021-05-17 21:49:02 INFO com.youceedu.interf.util.ExcelUtil:110 -单元格类型: STRING 返回值= 1
+2021-05-17 21:49:02 INFO com.youceedu.interf.util.ExcelUtil:110 -单元格类型: STRING 返回值= YES
+2021-05-17 21:49:02 INFO com.youceedu.interf.util.ExcelUtil:110 -单元格类型: STRING 返回值= 正确的账号和密码登录
+2021-05-17 21:49:02 INFO com.youceedu.interf.util.ExcelUtil:110 -单元格类型: STRING 返回值= POST
+2021-05-17 21:49:02 INFO com.youceedu.interf.util.ExcelUtil:110 -单元格类型: STRING 返回值= http://8.131.245.231:8080
+2021-05-17 21:49:02 INFO com.youceedu.interf.util.ExcelUtil:110 -单元格类型: STRING 返回值= /api/loginCheck
+2021-05-17 21:49:02 INFO com.youceedu.interf.util.ExcelUtil:110 -单元格类型: STRING 返回值= id=123456&passwd=123456&t=${__Random(1,1,100)}
+2021-05-17 21:49:02 INFO com.youceedu.interf.util.ExcelUtil:110 -单元格类型: STRING 返回值= $.msg=管理员登陆成功;$.stateCode=1
+2021-05-17 21:49:02 INFO com.youceedu.interf.util.ExcelUtil:110 -单元格类型: STRING 返回值= NO
+2021-05-17 21:49:02 INFO com.youceedu.interf.util.ExcelUtil:110 -单元格类型: STRING 返回值= /api/loginCheck:$.stateCode
+2021-05-17 21:49:02 INFO com.youceedu.interf.util.ExcelUtil:133 -excel内测试用例已成功存入到二维数组testcasedata中
+2021-05-17 21:49:02 INFO com.youceedu.interf.util.PatternUtil:82 -得到Matcher对象
+2021-05-17 21:49:02 INFO com.youceedu.interf.util.PatternUtil:52 -得到经过处理后的请求数据reqData= id=123456&passwd=123456&t=${__Random(1,1,100)}
+2021-05-17 21:49:03 INFO com.youceedu.interf.util.PatternUtil:82 -得到Matcher对象
+2021-05-17 21:49:03 INFO com.youceedu.interf.util.PatternUtil:101 -对比预期值： 管理员登陆成功 与实际值: 管理员登陆成功
+2021-05-17 21:49:03 INFO com.youceedu.interf.util.PatternUtil:101 -对比预期值： 1 与实际值: 1
+2021-05-17 21:49:03 INFO com.youceedu.interf.listener.TestListenerImpl:43 -失败用例去重完成
+2021-05-17 21:49:36 INFO com.youceedu.interf.util.ExcelUtilTest:25 -传入excel路径 filepath: D:\\testcase.xlsx
+2021-05-17 21:49:36 INFO com.youceedu.interf.util.ExcelUtil:29 -实例化类，入参filename= D:\\testcase.xlsx
+2021-05-17 21:49:36 INFO com.youceedu.interf.util.ExcelUtilTest:69 -给测试方法提供测试数据
+2021-05-17 21:49:37 INFO com.youceedu.interf.util.ExcelUtil:41 -成功得到XSSFWorkbook对象 wb
+2021-05-17 21:49:37 INFO com.youceedu.interf.util.ExcelUtil:53 -成功得到sheet对象
+2021-05-17 21:49:37 INFO com.youceedu.interf.util.ExcelUtil:110 -单元格类型: STRING 返回值= 1
+2021-05-17 21:49:37 INFO com.youceedu.interf.util.ExcelUtil:110 -单元格类型: STRING 返回值= YES
+2021-05-17 21:49:37 INFO com.youceedu.interf.util.ExcelUtil:110 -单元格类型: STRING 返回值= 正确的账号和密码登录
+2021-05-17 21:49:37 INFO com.youceedu.interf.util.ExcelUtil:110 -单元格类型: STRING 返回值= POST
+2021-05-17 21:49:37 INFO com.youceedu.interf.util.ExcelUtil:110 -单元格类型: STRING 返回值= http://8.131.245.231:8080
+2021-05-17 21:49:37 INFO com.youceedu.interf.util.ExcelUtil:110 -单元格类型: STRING 返回值= /api/loginCheck
+2021-05-17 21:49:37 INFO com.youceedu.interf.util.ExcelUtil:110 -单元格类型: STRING 返回值= id=123456&passwd=123456&t=${__Random(1,1,100)}
+2021-05-17 21:49:37 INFO com.youceedu.interf.util.ExcelUtil:110 -单元格类型: STRING 返回值= $.msg=管理员登陆成功;$.stateCode=1
+2021-05-17 21:49:37 INFO com.youceedu.interf.util.ExcelUtil:110 -单元格类型: STRING 返回值= NO
+2021-05-17 21:49:37 INFO com.youceedu.interf.util.ExcelUtil:110 -单元格类型: STRING 返回值= /api/loginCheck:$.stateCode
+2021-05-17 21:49:37 INFO com.youceedu.interf.util.ExcelUtil:133 -excel内测试用例已成功存入到二维数组testcasedata中
+2021-05-17 21:49:37 INFO com.youceedu.interf.util.PatternUtil:82 -得到Matcher对象
+2021-05-17 21:49:37 INFO com.youceedu.interf.util.PatternUtil:52 -得到经过处理后的请求数据reqData= id=123456&passwd=123456&t=${__Random(1,1,100)}
+2021-05-17 21:49:37 INFO com.youceedu.interf.util.PatternUtil:82 -得到Matcher对象
+2021-05-17 21:49:37 INFO com.youceedu.interf.util.PatternUtil:101 -对比预期值： 管理员登陆成功 与实际值: 管理员登陆成功
+2021-05-17 21:49:37 INFO com.youceedu.interf.util.PatternUtil:101 -对比预期值： 1 与实际值: 1
+2021-05-17 21:49:37 INFO com.youceedu.interf.listener.TestListenerImpl:43 -失败用例去重完成
+2021-05-17 21:50:31 INFO com.youceedu.interf.util.ExcelUtilTest:25 -传入excel路径 filepath: D:\\testcase.xlsx
+2021-05-17 21:50:31 INFO com.youceedu.interf.util.ExcelUtil:29 -实例化类，入参filename= D:\\testcase.xlsx
+2021-05-17 21:50:31 INFO com.youceedu.interf.util.ExcelUtilTest:69 -给测试方法提供测试数据
+2021-05-17 21:50:31 INFO com.youceedu.interf.util.ExcelUtil:41 -成功得到XSSFWorkbook对象 wb
+2021-05-17 21:50:31 INFO com.youceedu.interf.util.ExcelUtil:53 -成功得到sheet对象
+2021-05-17 21:50:31 INFO com.youceedu.interf.util.ExcelUtil:110 -单元格类型: STRING 返回值= 1
+2021-05-17 21:50:31 INFO com.youceedu.interf.util.ExcelUtil:110 -单元格类型: STRING 返回值= YES
+2021-05-17 21:50:31 INFO com.youceedu.interf.util.ExcelUtil:110 -单元格类型: STRING 返回值= 正确的账号和密码登录
+2021-05-17 21:50:31 INFO com.youceedu.interf.util.ExcelUtil:110 -单元格类型: STRING 返回值= POST
+2021-05-17 21:50:31 INFO com.youceedu.interf.util.ExcelUtil:110 -单元格类型: STRING 返回值= http://8.131.245.231:8080
+2021-05-17 21:50:31 INFO com.youceedu.interf.util.ExcelUtil:110 -单元格类型: STRING 返回值= /api/loginCheck
+2021-05-17 21:50:31 INFO com.youceedu.interf.util.ExcelUtil:110 -单元格类型: STRING 返回值= id=123456&passwd=123456&t=${__Random(1,1,100)}
+2021-05-17 21:50:31 INFO com.youceedu.interf.util.ExcelUtil:110 -单元格类型: STRING 返回值= $.msg=管理员登陆成功;$.stateCode=1
+2021-05-17 21:50:31 INFO com.youceedu.interf.util.ExcelUtil:110 -单元格类型: STRING 返回值= NO
+2021-05-17 21:50:31 INFO com.youceedu.interf.util.ExcelUtil:110 -单元格类型: STRING 返回值= /api/loginCheck:$.stateCode
+2021-05-17 21:50:31 INFO com.youceedu.interf.util.ExcelUtil:133 -excel内测试用例已成功存入到二维数组testcasedata中
+2021-05-17 21:50:31 INFO com.youceedu.interf.util.PatternUtil:82 -得到Matcher对象
+2021-05-17 21:50:31 INFO com.youceedu.interf.util.PatternUtil:52 -得到经过处理后的请求数据reqData= id=123456&passwd=123456&t=${__Random(1,1,100)}
+2021-05-17 21:50:32 INFO com.youceedu.interf.util.PatternUtil:82 -得到Matcher对象
+2021-05-17 21:50:32 INFO com.youceedu.interf.util.PatternUtil:101 -对比预期值： 管理员登陆成功 与实际值: 管理员登陆成功
+2021-05-17 21:50:32 INFO com.youceedu.interf.util.PatternUtil:101 -对比预期值： 1 与实际值: 1
+2021-05-17 21:50:32 INFO com.youceedu.interf.listener.TestListenerImpl:43 -失败用例去重完成
+2021-05-17 21:51:24 INFO com.youceedu.interf.util.ExcelUtilTest:25 -传入excel路径 filepath: D:\\testcase.xlsx
+2021-05-17 21:51:24 INFO com.youceedu.interf.util.ExcelUtil:29 -实例化类，入参filename= D:\\testcase.xlsx
+2021-05-17 21:51:24 INFO com.youceedu.interf.util.ExcelUtilTest:69 -给测试方法提供测试数据
+2021-05-17 21:51:24 INFO com.youceedu.interf.util.ExcelUtil:41 -成功得到XSSFWorkbook对象 wb
+2021-05-17 21:51:24 INFO com.youceedu.interf.util.ExcelUtil:53 -成功得到sheet对象
+2021-05-17 21:51:24 INFO com.youceedu.interf.util.ExcelUtil:110 -单元格类型: STRING 返回值= 1
+2021-05-17 21:51:24 INFO com.youceedu.interf.util.ExcelUtil:110 -单元格类型: STRING 返回值= YES
+2021-05-17 21:51:24 INFO com.youceedu.interf.util.ExcelUtil:110 -单元格类型: STRING 返回值= 正确的账号和密码登录
+2021-05-17 21:51:24 INFO com.youceedu.interf.util.ExcelUtil:110 -单元格类型: STRING 返回值= POST
+2021-05-17 21:51:24 INFO com.youceedu.interf.util.ExcelUtil:110 -单元格类型: STRING 返回值= http://8.131.245.231:8080
+2021-05-17 21:51:24 INFO com.youceedu.interf.util.ExcelUtil:110 -单元格类型: STRING 返回值= /api/loginCheck
+2021-05-17 21:51:24 INFO com.youceedu.interf.util.ExcelUtil:110 -单元格类型: STRING 返回值= id=123456&passwd=123456&t=${__Random(1,1,100)}
+2021-05-17 21:51:24 INFO com.youceedu.interf.util.ExcelUtil:110 -单元格类型: STRING 返回值= $.msg=管理员登陆成功;$.stateCode=1
+2021-05-17 21:51:24 INFO com.youceedu.interf.util.ExcelUtil:110 -单元格类型: STRING 返回值= NO
+2021-05-17 21:51:24 INFO com.youceedu.interf.util.ExcelUtil:110 -单元格类型: STRING 返回值= /api/loginCheck:$.stateCode
+2021-05-17 21:51:24 INFO com.youceedu.interf.util.ExcelUtil:133 -excel内测试用例已成功存入到二维数组testcasedata中
+2021-05-17 21:51:24 INFO com.youceedu.interf.util.PatternUtil:82 -得到Matcher对象
+2021-05-17 21:51:24 INFO com.youceedu.interf.util.PatternUtil:52 -得到经过处理后的请求数据reqData= id=123456&passwd=123456&t=${__Random(1,1,100)}
+2021-05-17 21:51:25 INFO com.youceedu.interf.util.PatternUtil:82 -得到Matcher对象
+2021-05-17 21:51:25 INFO com.youceedu.interf.util.PatternUtil:101 -对比预期值： 管理员登陆成功 与实际值: 管理员登陆成功
+2021-05-17 21:51:25 INFO com.youceedu.interf.util.PatternUtil:101 -对比预期值： 1 与实际值: 1
+2021-05-17 21:51:25 INFO com.youceedu.interf.listener.TestListenerImpl:43 -失败用例去重完成
+2021-05-17 21:51:55 INFO com.youceedu.interf.util.ExcelUtilTest:25 -传入excel路径 filepath: D:\\testcase.xlsx
+2021-05-17 21:51:55 INFO com.youceedu.interf.util.ExcelUtil:29 -实例化类，入参filename= D:\\testcase.xlsx
+2021-05-17 21:51:55 INFO com.youceedu.interf.util.ExcelUtilTest:69 -给测试方法提供测试数据
+2021-05-17 21:51:55 INFO com.youceedu.interf.util.ExcelUtil:41 -成功得到XSSFWorkbook对象 wb
+2021-05-17 21:51:55 INFO com.youceedu.interf.util.ExcelUtil:53 -成功得到sheet对象
+2021-05-17 21:51:55 INFO com.youceedu.interf.util.ExcelUtil:110 -单元格类型: STRING 返回值= 1
+2021-05-17 21:51:55 INFO com.youceedu.interf.util.ExcelUtil:110 -单元格类型: STRING 返回值= YES
+2021-05-17 21:51:55 INFO com.youceedu.interf.util.ExcelUtil:110 -单元格类型: STRING 返回值= 正确的账号和密码登录
+2021-05-17 21:51:55 INFO com.youceedu.interf.util.ExcelUtil:110 -单元格类型: STRING 返回值= POST
+2021-05-17 21:51:55 INFO com.youceedu.interf.util.ExcelUtil:110 -单元格类型: STRING 返回值= http://8.131.245.231:8080
+2021-05-17 21:51:55 INFO com.youceedu.interf.util.ExcelUtil:110 -单元格类型: STRING 返回值= /api/loginCheck
+2021-05-17 21:51:55 INFO com.youceedu.interf.util.ExcelUtil:110 -单元格类型: STRING 返回值= id=123456&passwd=123456&t=${__Random(1,1,100)}
+2021-05-17 21:51:55 INFO com.youceedu.interf.util.ExcelUtil:110 -单元格类型: STRING 返回值= $.msg=管理员登陆成功;$.stateCode=1
+2021-05-17 21:51:55 INFO com.youceedu.interf.util.ExcelUtil:110 -单元格类型: STRING 返回值= NO
+2021-05-17 21:51:55 INFO com.youceedu.interf.util.ExcelUtil:110 -单元格类型: STRING 返回值= /api/loginCheck:$.stateCode
+2021-05-17 21:51:55 INFO com.youceedu.interf.util.ExcelUtil:133 -excel内测试用例已成功存入到二维数组testcasedata中
+2021-05-17 21:51:55 INFO com.youceedu.interf.util.PatternUtil:82 -得到Matcher对象
+2021-05-17 21:51:55 INFO com.youceedu.interf.util.PatternUtil:52 -得到经过处理后的请求数据reqData= id=123456&passwd=123456&t=${__Random(1,1,100)}
+2021-05-17 21:51:56 INFO com.youceedu.interf.util.PatternUtil:82 -得到Matcher对象
+2021-05-17 21:51:56 INFO com.youceedu.interf.util.PatternUtil:101 -对比预期值： 管理员登陆成功 与实际值: 管理员登陆成功
+2021-05-17 21:51:56 INFO com.youceedu.interf.util.PatternUtil:101 -对比预期值： 1 与实际值: 1
+2021-05-17 21:51:56 INFO com.youceedu.interf.listener.TestListenerImpl:43 -失败用例去重完成
+2021-05-17 21:52:22 INFO com.youceedu.interf.util.ExcelUtilTest:25 -传入excel路径 filepath: D:\\testcase.xlsx
+2021-05-17 21:52:22 INFO com.youceedu.interf.util.ExcelUtil:29 -实例化类，入参filename= D:\\testcase.xlsx
+2021-05-17 21:52:22 INFO com.youceedu.interf.util.ExcelUtilTest:69 -给测试方法提供测试数据
+2021-05-17 21:52:22 INFO com.youceedu.interf.util.ExcelUtil:41 -成功得到XSSFWorkbook对象 wb
+2021-05-17 21:52:22 INFO com.youceedu.interf.util.ExcelUtil:53 -成功得到sheet对象
+2021-05-17 21:52:22 INFO com.youceedu.interf.util.ExcelUtil:110 -单元格类型: STRING 返回值= 1
+2021-05-17 21:52:22 INFO com.youceedu.interf.util.ExcelUtil:110 -单元格类型: STRING 返回值= YES
+2021-05-17 21:52:22 INFO com.youceedu.interf.util.ExcelUtil:110 -单元格类型: STRING 返回值= 正确的账号和密码登录
+2021-05-17 21:52:22 INFO com.youceedu.interf.util.ExcelUtil:110 -单元格类型: STRING 返回值= POST
+2021-05-17 21:52:22 INFO com.youceedu.interf.util.ExcelUtil:110 -单元格类型: STRING 返回值= http://8.131.245.231:8080
+2021-05-17 21:52:22 INFO com.youceedu.interf.util.ExcelUtil:110 -单元格类型: STRING 返回值= /api/loginCheck
+2021-05-17 21:52:22 INFO com.youceedu.interf.util.ExcelUtil:110 -单元格类型: STRING 返回值= id=123456&passwd=123456&t=${__Random(1,1,100)}
+2021-05-17 21:52:22 INFO com.youceedu.interf.util.ExcelUtil:110 -单元格类型: STRING 返回值= $.msg=管理员登陆成功;$.stateCode=1
+2021-05-17 21:52:22 INFO com.youceedu.interf.util.ExcelUtil:110 -单元格类型: STRING 返回值= NO
+2021-05-17 21:52:22 INFO com.youceedu.interf.util.ExcelUtil:110 -单元格类型: STRING 返回值= /api/loginCheck:$.stateCode
+2021-05-17 21:52:22 INFO com.youceedu.interf.util.ExcelUtil:133 -excel内测试用例已成功存入到二维数组testcasedata中
+2021-05-17 21:52:22 INFO com.youceedu.interf.util.PatternUtil:82 -得到Matcher对象
+2021-05-17 21:52:22 INFO com.youceedu.interf.util.PatternUtil:52 -得到经过处理后的请求数据reqData= id=123456&passwd=123456&t=${__Random(1,1,100)}
+2021-05-17 21:52:23 INFO com.youceedu.interf.util.PatternUtil:82 -得到Matcher对象
+2021-05-17 21:52:23 INFO com.youceedu.interf.util.PatternUtil:101 -对比预期值： 管理员登陆成功 与实际值: 管理员登陆成功
+2021-05-17 21:52:23 INFO com.youceedu.interf.util.PatternUtil:101 -对比预期值： 1 与实际值: 1
+2021-05-17 21:52:23 INFO com.youceedu.interf.listener.TestListenerImpl:43 -失败用例去重完成
+2021-05-17 21:53:18 INFO com.youceedu.interf.util.ExcelUtilTest:25 -传入excel路径 filepath: D:\\testcase.xlsx
+2021-05-17 21:53:18 INFO com.youceedu.interf.util.ExcelUtil:29 -实例化类，入参filename= D:\\testcase.xlsx
+2021-05-17 21:53:18 INFO com.youceedu.interf.util.ExcelUtilTest:69 -给测试方法提供测试数据
+2021-05-17 21:53:18 INFO com.youceedu.interf.util.ExcelUtil:41 -成功得到XSSFWorkbook对象 wb
+2021-05-17 21:53:18 INFO com.youceedu.interf.util.ExcelUtil:53 -成功得到sheet对象
+2021-05-17 21:53:18 INFO com.youceedu.interf.util.ExcelUtil:110 -单元格类型: STRING 返回值= 1
+2021-05-17 21:53:18 INFO com.youceedu.interf.util.ExcelUtil:110 -单元格类型: STRING 返回值= YES
+2021-05-17 21:53:18 INFO com.youceedu.interf.util.ExcelUtil:110 -单元格类型: STRING 返回值= 正确的账号和密码登录
+2021-05-17 21:53:18 INFO com.youceedu.interf.util.ExcelUtil:110 -单元格类型: STRING 返回值= POST
+2021-05-17 21:53:18 INFO com.youceedu.interf.util.ExcelUtil:110 -单元格类型: STRING 返回值= http://8.131.245.231:8080
+2021-05-17 21:53:18 INFO com.youceedu.interf.util.ExcelUtil:110 -单元格类型: STRING 返回值= /api/loginCheck
+2021-05-17 21:53:18 INFO com.youceedu.interf.util.ExcelUtil:110 -单元格类型: STRING 返回值= id=123456&passwd=123456&t=${__Random(1,1,100)}
+2021-05-17 21:53:18 INFO com.youceedu.interf.util.ExcelUtil:110 -单元格类型: STRING 返回值= $.msg=管理员登陆成功;$.stateCode=1
+2021-05-17 21:53:18 INFO com.youceedu.interf.util.ExcelUtil:110 -单元格类型: STRING 返回值= NO
+2021-05-17 21:53:18 INFO com.youceedu.interf.util.ExcelUtil:110 -单元格类型: STRING 返回值= /api/loginCheck:$.stateCode
+2021-05-17 21:53:18 INFO com.youceedu.interf.util.ExcelUtil:133 -excel内测试用例已成功存入到二维数组testcasedata中
+2021-05-17 21:53:18 INFO com.youceedu.interf.util.PatternUtil:82 -得到Matcher对象
+2021-05-17 21:53:18 INFO com.youceedu.interf.util.PatternUtil:52 -得到经过处理后的请求数据reqData= id=123456&passwd=123456&t=${__Random(1,1,100)}
+2021-05-17 21:53:19 INFO com.youceedu.interf.util.PatternUtil:82 -得到Matcher对象
+2021-05-17 21:53:19 INFO com.youceedu.interf.util.PatternUtil:101 -对比预期值： 管理员登陆成功 与实际值: 管理员登陆成功
+2021-05-17 21:53:19 INFO com.youceedu.interf.util.PatternUtil:101 -对比预期值： 1 与实际值: 1
+2021-05-17 21:53:19 INFO com.youceedu.interf.listener.TestListenerImpl:43 -失败用例去重完成
+2021-05-17 22:08:49 INFO com.youceedu.interf.util.ExcelUtilTest:25 -传入excel路径 filepath: D:\\testcase.xlsx
+2021-05-17 22:08:49 INFO com.youceedu.interf.util.ExcelUtil:29 -实例化类，入参filename= D:\\testcase.xlsx
+2021-05-17 22:08:49 INFO com.youceedu.interf.util.ExcelUtilTest:69 -给测试方法提供测试数据
+2021-05-17 22:08:49 INFO com.youceedu.interf.util.ExcelUtil:41 -成功得到XSSFWorkbook对象 wb
+2021-05-17 22:08:49 INFO com.youceedu.interf.util.ExcelUtil:53 -成功得到sheet对象
+2021-05-17 22:08:49 INFO com.youceedu.interf.util.ExcelUtil:110 -单元格类型: STRING 返回值= 1
+2021-05-17 22:08:49 INFO com.youceedu.interf.util.ExcelUtil:110 -单元格类型: STRING 返回值= YES
+2021-05-17 22:08:49 INFO com.youceedu.interf.util.ExcelUtil:110 -单元格类型: STRING 返回值= 正确的账号和密码登录
+2021-05-17 22:08:49 INFO com.youceedu.interf.util.ExcelUtil:110 -单元格类型: STRING 返回值= POST
+2021-05-17 22:08:49 INFO com.youceedu.interf.util.ExcelUtil:110 -单元格类型: STRING 返回值= http://8.131.245.231:8080
+2021-05-17 22:08:49 INFO com.youceedu.interf.util.ExcelUtil:110 -单元格类型: STRING 返回值= /api/loginCheck
+2021-05-17 22:08:49 INFO com.youceedu.interf.util.ExcelUtil:110 -单元格类型: STRING 返回值= id=123456&passwd=123456&t=${__Time(YMDHMS)}
+2021-05-17 22:08:49 INFO com.youceedu.interf.util.ExcelUtil:110 -单元格类型: STRING 返回值= $.msg=管理员登陆成功;$.stateCode=1
+2021-05-17 22:08:49 INFO com.youceedu.interf.util.ExcelUtil:110 -单元格类型: STRING 返回值= NO
+2021-05-17 22:08:49 INFO com.youceedu.interf.util.ExcelUtil:110 -单元格类型: STRING 返回值= /api/loginCheck:$.stateCode
+2021-05-17 22:08:49 INFO com.youceedu.interf.util.ExcelUtil:133 -excel内测试用例已成功存入到二维数组testcasedata中
+2021-05-17 22:08:49 INFO com.youceedu.interf.util.PatternUtil:82 -得到Matcher对象
+2021-05-17 22:08:49 INFO com.youceedu.interf.util.PatternUtil:52 -得到经过处理后的请求数据reqData= id=123456&passwd=123456&t=${__Time(YMDHMS)}
+2021-05-17 22:08:50 INFO com.youceedu.interf.util.PatternUtil:82 -得到Matcher对象
+2021-05-17 22:08:50 INFO com.youceedu.interf.util.PatternUtil:101 -对比预期值： 管理员登陆成功 与实际值: 管理员登陆成功
+2021-05-17 22:08:50 INFO com.youceedu.interf.util.PatternUtil:101 -对比预期值： 1 与实际值: 1
+2021-05-17 22:08:50 INFO com.youceedu.interf.listener.TestListenerImpl:43 -失败用例去重完成
+2021-05-17 22:11:52 INFO com.youceedu.interf.util.ExcelUtilTest:25 -传入excel路径 filepath: D:\\testcase.xlsx
+2021-05-17 22:11:52 INFO com.youceedu.interf.util.ExcelUtil:29 -实例化类，入参filename= D:\\testcase.xlsx
+2021-05-17 22:11:52 INFO com.youceedu.interf.util.ExcelUtilTest:69 -给测试方法提供测试数据
+2021-05-17 22:11:53 INFO com.youceedu.interf.util.ExcelUtil:41 -成功得到XSSFWorkbook对象 wb
+2021-05-17 22:11:53 INFO com.youceedu.interf.util.ExcelUtil:53 -成功得到sheet对象
+2021-05-17 22:11:53 INFO com.youceedu.interf.util.ExcelUtil:110 -单元格类型: STRING 返回值= 1
+2021-05-17 22:11:53 INFO com.youceedu.interf.util.ExcelUtil:110 -单元格类型: STRING 返回值= YES
+2021-05-17 22:11:53 INFO com.youceedu.interf.util.ExcelUtil:110 -单元格类型: STRING 返回值= 正确的账号和密码登录
+2021-05-17 22:11:53 INFO com.youceedu.interf.util.ExcelUtil:110 -单元格类型: STRING 返回值= POST
+2021-05-17 22:11:53 INFO com.youceedu.interf.util.ExcelUtil:110 -单元格类型: STRING 返回值= http://8.131.245.231:8080
+2021-05-17 22:11:53 INFO com.youceedu.interf.util.ExcelUtil:110 -单元格类型: STRING 返回值= /api/loginCheck
+2021-05-17 22:11:53 INFO com.youceedu.interf.util.ExcelUtil:110 -单元格类型: STRING 返回值= id=123456&passwd=123456&t=${__UUID(,)}
+2021-05-17 22:11:53 INFO com.youceedu.interf.util.ExcelUtil:110 -单元格类型: STRING 返回值= $.msg=管理员登陆成功;$.stateCode=1
+2021-05-17 22:11:53 INFO com.youceedu.interf.util.ExcelUtil:110 -单元格类型: STRING 返回值= NO
+2021-05-17 22:11:53 INFO com.youceedu.interf.util.ExcelUtil:110 -单元格类型: STRING 返回值= /api/loginCheck:$.stateCode
+2021-05-17 22:11:53 INFO com.youceedu.interf.util.ExcelUtil:133 -excel内测试用例已成功存入到二维数组testcasedata中
+2021-05-17 22:11:53 INFO com.youceedu.interf.util.PatternUtil:82 -得到Matcher对象
+2021-05-17 22:11:53 INFO com.youceedu.interf.util.PatternUtil:52 -得到经过处理后的请求数据reqData= id=123456&passwd=123456&t=${__UUID(,)}
+2021-05-17 22:11:54 INFO com.youceedu.interf.util.PatternUtil:82 -得到Matcher对象
+2021-05-17 22:11:54 INFO com.youceedu.interf.util.PatternUtil:101 -对比预期值： 管理员登陆成功 与实际值: 管理员登陆成功
+2021-05-17 22:11:54 INFO com.youceedu.interf.util.PatternUtil:101 -对比预期值： 1 与实际值: 1
+2021-05-17 22:11:54 INFO com.youceedu.interf.listener.TestListenerImpl:43 -失败用例去重完成
+2021-05-17 22:21:02 INFO com.youceedu.interf.util.ExcelUtilTest:25 -传入excel路径 filepath: D:\\testcase.xlsx
+2021-05-17 22:21:02 INFO com.youceedu.interf.util.ExcelUtil:29 -实例化类，入参filename= D:\\testcase.xlsx
+2021-05-17 22:21:02 INFO com.youceedu.interf.util.ExcelUtilTest:69 -给测试方法提供测试数据
+2021-05-17 22:21:02 INFO com.youceedu.interf.util.ExcelUtil:41 -成功得到XSSFWorkbook对象 wb
+2021-05-17 22:21:02 INFO com.youceedu.interf.util.ExcelUtil:53 -成功得到sheet对象
+2021-05-17 22:21:02 INFO com.youceedu.interf.util.ExcelUtil:110 -单元格类型: STRING 返回值= 1
+2021-05-17 22:21:02 INFO com.youceedu.interf.util.ExcelUtil:110 -单元格类型: STRING 返回值= YES
+2021-05-17 22:21:02 INFO com.youceedu.interf.util.ExcelUtil:110 -单元格类型: STRING 返回值= 正确的账号和密码登录
+2021-05-17 22:21:02 INFO com.youceedu.interf.util.ExcelUtil:110 -单元格类型: STRING 返回值= POST
+2021-05-17 22:21:02 INFO com.youceedu.interf.util.ExcelUtil:110 -单元格类型: STRING 返回值= http://8.131.245.231:8080
+2021-05-17 22:21:02 INFO com.youceedu.interf.util.ExcelUtil:110 -单元格类型: STRING 返回值= /api/loginCheck
+2021-05-17 22:21:02 INFO com.youceedu.interf.util.ExcelUtil:110 -单元格类型: STRING 返回值= id=123456&passwd=123456&t=${__UUID(,)}
+2021-05-17 22:21:02 INFO com.youceedu.interf.util.ExcelUtil:110 -单元格类型: STRING 返回值= $.msg=管理员登陆成功;$.stateCode=1
+2021-05-17 22:21:02 INFO com.youceedu.interf.util.ExcelUtil:110 -单元格类型: STRING 返回值= NO
+2021-05-17 22:21:02 INFO com.youceedu.interf.util.ExcelUtil:110 -单元格类型: STRING 返回值= /api/loginCheck:$.stateCode
+2021-05-17 22:21:02 INFO com.youceedu.interf.util.ExcelUtil:133 -excel内测试用例已成功存入到二维数组testcasedata中
+2021-05-17 22:21:02 INFO com.youceedu.interf.util.PatternUtil:82 -得到Matcher对象
+2021-05-17 22:21:02 INFO com.youceedu.interf.util.PatternUtil:82 -得到Matcher对象
+2021-05-17 22:21:02 INFO com.youceedu.interf.util.PatternUtil:52 -得到经过处理后的请求数据reqData= id=123456&passwd=123456&t=cd65c9aa634341c3ba603a81becade04
+2021-05-17 22:21:03 INFO com.youceedu.interf.util.PatternUtil:82 -得到Matcher对象
+2021-05-17 22:21:03 INFO com.youceedu.interf.util.PatternUtil:101 -对比预期值： 管理员登陆成功 与实际值: 管理员登陆成功
+2021-05-17 22:21:03 INFO com.youceedu.interf.util.PatternUtil:101 -对比预期值： 1 与实际值: 1
+2021-05-17 22:21:03 INFO com.youceedu.interf.listener.TestListenerImpl:43 -失败用例去重完成
+2021-05-17 22:22:09 INFO com.youceedu.interf.util.ExcelUtilTest:25 -传入excel路径 filepath: D:\\testcase.xlsx
+2021-05-17 22:22:09 INFO com.youceedu.interf.util.ExcelUtil:29 -实例化类，入参filename= D:\\testcase.xlsx
+2021-05-17 22:22:09 INFO com.youceedu.interf.util.ExcelUtilTest:71 -给测试方法提供测试数据
+2021-05-17 22:22:09 INFO com.youceedu.interf.util.ExcelUtil:41 -成功得到XSSFWorkbook对象 wb
+2021-05-17 22:22:09 INFO com.youceedu.interf.util.ExcelUtil:53 -成功得到sheet对象
+2021-05-17 22:22:09 INFO com.youceedu.interf.util.ExcelUtil:110 -单元格类型: STRING 返回值= 1
+2021-05-17 22:22:09 INFO com.youceedu.interf.util.ExcelUtil:110 -单元格类型: STRING 返回值= YES
+2021-05-17 22:22:09 INFO com.youceedu.interf.util.ExcelUtil:110 -单元格类型: STRING 返回值= 正确的账号和密码登录
+2021-05-17 22:22:09 INFO com.youceedu.interf.util.ExcelUtil:110 -单元格类型: STRING 返回值= POST
+2021-05-17 22:22:09 INFO com.youceedu.interf.util.ExcelUtil:110 -单元格类型: STRING 返回值= http://8.131.245.231:8080
+2021-05-17 22:22:09 INFO com.youceedu.interf.util.ExcelUtil:110 -单元格类型: STRING 返回值= /api/loginCheck
+2021-05-17 22:22:09 INFO com.youceedu.interf.util.ExcelUtil:110 -单元格类型: STRING 返回值= id=123456&passwd=123456&t=${__UUID(,)}
+2021-05-17 22:22:09 INFO com.youceedu.interf.util.ExcelUtil:110 -单元格类型: STRING 返回值= $.msg=管理员登陆成功;$.stateCode=1
+2021-05-17 22:22:09 INFO com.youceedu.interf.util.ExcelUtil:110 -单元格类型: STRING 返回值= NO
+2021-05-17 22:22:09 INFO com.youceedu.interf.util.ExcelUtil:110 -单元格类型: STRING 返回值= /api/loginCheck:$.stateCode
+2021-05-17 22:22:09 INFO com.youceedu.interf.util.ExcelUtil:133 -excel内测试用例已成功存入到二维数组testcasedata中
+2021-05-17 22:22:09 INFO com.youceedu.interf.util.PatternUtil:82 -得到Matcher对象
+2021-05-17 22:22:09 INFO com.youceedu.interf.util.PatternUtil:82 -得到Matcher对象
+2021-05-17 22:22:09 INFO com.youceedu.interf.util.PatternUtil:52 -得到经过处理后的请求数据reqData= id=123456&passwd=123456&t=22abf327594d412ea352081fe92137de
+2021-05-17 22:22:10 INFO com.youceedu.interf.util.PatternUtil:82 -得到Matcher对象
+2021-05-17 22:22:10 INFO com.youceedu.interf.util.PatternUtil:101 -对比预期值： 管理员登陆成功 与实际值: 管理员登陆成功
+2021-05-17 22:22:10 INFO com.youceedu.interf.util.PatternUtil:101 -对比预期值： 1 与实际值: 1
+2021-05-17 22:22:10 INFO com.youceedu.interf.listener.TestListenerImpl:43 -失败用例去重完成
+2021-05-20 23:16:36 INFO com.youceedu.interf.util.ExcelUtilTest:25 -传入excel路径 filepath: D:\\testcase.xlsx
+2021-05-20 23:16:36 INFO com.youceedu.interf.util.ExcelUtil:29 -实例化类，入参filename= D:\\testcase.xlsx
+2021-05-20 23:16:36 INFO com.youceedu.interf.util.ExcelUtilTest:82 -给测试方法提供测试数据
+2021-05-20 23:16:37 INFO com.youceedu.interf.util.ExcelUtil:41 -成功得到XSSFWorkbook对象 wb
+2021-05-20 23:16:37 INFO com.youceedu.interf.util.ExcelUtil:53 -成功得到sheet对象
+2021-05-20 23:16:37 INFO com.youceedu.interf.util.ExcelUtil:110 -单元格类型: STRING 返回值= 1
+2021-05-20 23:16:37 INFO com.youceedu.interf.util.ExcelUtil:110 -单元格类型: STRING 返回值= YES
+2021-05-20 23:16:37 INFO com.youceedu.interf.util.ExcelUtil:110 -单元格类型: STRING 返回值= 正确的账号和密码登录
+2021-05-20 23:16:37 INFO com.youceedu.interf.util.ExcelUtil:110 -单元格类型: STRING 返回值= POST
+2021-05-20 23:16:37 INFO com.youceedu.interf.util.ExcelUtil:110 -单元格类型: STRING 返回值= http://8.131.245.231:8080
+2021-05-20 23:16:37 INFO com.youceedu.interf.util.ExcelUtil:110 -单元格类型: STRING 返回值= /api/loginCheck
+2021-05-20 23:16:37 INFO com.youceedu.interf.util.ExcelUtil:110 -单元格类型: STRING 返回值= id=123456&passwd=123456&t=${__Time(YMDHMS,)}
+2021-05-20 23:16:37 INFO com.youceedu.interf.util.ExcelUtil:110 -单元格类型: STRING 返回值= $.msg=管理员登陆成功;$.stateCode=1
+2021-05-20 23:16:37 INFO com.youceedu.interf.util.ExcelUtil:110 -单元格类型: STRING 返回值= NO
+2021-05-20 23:16:37 INFO com.youceedu.interf.util.ExcelUtil:110 -单元格类型: STRING 返回值= /api/loginCheck:$.stateCode
+2021-05-20 23:16:37 INFO com.youceedu.interf.util.ExcelUtil:133 -excel内测试用例已成功存入到二维数组testcasedata中
+2021-05-20 23:16:37 INFO com.youceedu.interf.listener.TestListenerImpl:43 -失败用例去重完成
+2021-05-20 23:25:22 INFO com.youceedu.interf.util.ExcelUtilTest:25 -传入excel路径 filepath: D:\\testcase.xlsx
+2021-05-20 23:25:22 INFO com.youceedu.interf.util.ExcelUtil:29 -实例化类，入参filename= D:\\testcase.xlsx
+2021-05-20 23:25:22 INFO com.youceedu.interf.util.ExcelUtilTest:73 -给测试方法提供测试数据
+2021-05-20 23:25:23 INFO com.youceedu.interf.util.ExcelUtil:41 -成功得到XSSFWorkbook对象 wb
+2021-05-20 23:25:23 INFO com.youceedu.interf.util.ExcelUtil:53 -成功得到sheet对象
+2021-05-20 23:25:23 INFO com.youceedu.interf.util.ExcelUtil:110 -单元格类型: STRING 返回值= 1
+2021-05-20 23:25:23 INFO com.youceedu.interf.util.ExcelUtil:110 -单元格类型: STRING 返回值= YES
+2021-05-20 23:25:23 INFO com.youceedu.interf.util.ExcelUtil:110 -单元格类型: STRING 返回值= 正确的账号和密码登录
+2021-05-20 23:25:23 INFO com.youceedu.interf.util.ExcelUtil:110 -单元格类型: STRING 返回值= POST
+2021-05-20 23:25:23 INFO com.youceedu.interf.util.ExcelUtil:110 -单元格类型: STRING 返回值= http://8.131.245.231:8080
+2021-05-20 23:25:23 INFO com.youceedu.interf.util.ExcelUtil:110 -单元格类型: STRING 返回值= /api/loginCheck
+2021-05-20 23:25:23 INFO com.youceedu.interf.util.ExcelUtil:110 -单元格类型: STRING 返回值= id=123456&passwd=123456&t=${__Random(1,min,max)}
+2021-05-20 23:25:23 INFO com.youceedu.interf.util.ExcelUtil:110 -单元格类型: STRING 返回值= $.msg=管理员登陆成功;$.stateCode=1
+2021-05-20 23:25:23 INFO com.youceedu.interf.util.ExcelUtil:110 -单元格类型: STRING 返回值= NO
+2021-05-20 23:25:23 INFO com.youceedu.interf.util.ExcelUtil:110 -单元格类型: STRING 返回值= /api/loginCheck:$.stateCode
+2021-05-20 23:25:23 INFO com.youceedu.interf.util.ExcelUtil:133 -excel内测试用例已成功存入到二维数组testcasedata中
+2021-05-20 23:25:23 INFO com.youceedu.interf.util.PatternUtil:83 -得到Matcher对象
+2021-05-20 23:25:23 INFO com.youceedu.interf.listener.TestListenerImpl:43 -失败用例去重完成
+2021-05-24 21:18:19 INFO com.youceedu.interf.util.ExcelUtilTest:23 -传入excel路径 filepath: D:\\testcase.xlsx
+2021-05-24 21:18:19 INFO com.youceedu.interf.util.ExcelUtil:29 -实例化类，入参filename= D:\\testcase.xlsx
+2021-05-24 21:18:19 INFO com.youceedu.interf.util.ExcelUtilTest:71 -给测试方法提供测试数据
+2021-05-24 21:18:20 INFO com.youceedu.interf.util.ExcelUtil:41 -成功得到XSSFWorkbook对象 wb
+2021-05-24 21:18:20 INFO com.youceedu.interf.util.ExcelUtil:53 -成功得到sheet对象
+2021-05-24 21:18:20 INFO com.youceedu.interf.util.ExcelUtil:110 -单元格类型: STRING 返回值= 1
+2021-05-24 21:18:20 INFO com.youceedu.interf.util.ExcelUtil:110 -单元格类型: STRING 返回值= YES
+2021-05-24 21:18:20 INFO com.youceedu.interf.util.ExcelUtil:110 -单元格类型: STRING 返回值= 正确的账号和密码登录
+2021-05-24 21:18:20 INFO com.youceedu.interf.util.ExcelUtil:110 -单元格类型: STRING 返回值= POST
+2021-05-24 21:18:20 INFO com.youceedu.interf.util.ExcelUtil:110 -单元格类型: STRING 返回值= http://8.131.245.231:8080
+2021-05-24 21:18:20 INFO com.youceedu.interf.util.ExcelUtil:110 -单元格类型: STRING 返回值= /api/loginCheck
+2021-05-24 21:18:20 INFO com.youceedu.interf.util.ExcelUtil:110 -单元格类型: STRING 返回值= id=123456&passwd=123456&t=${__Random(1,min,max)}
+2021-05-24 21:18:20 INFO com.youceedu.interf.util.ExcelUtil:110 -单元格类型: STRING 返回值= $.msg=管理员登陆成功;$.stateCode=1
+2021-05-24 21:18:20 INFO com.youceedu.interf.util.ExcelUtil:110 -单元格类型: STRING 返回值= NO
+2021-05-24 21:18:20 INFO com.youceedu.interf.util.ExcelUtil:110 -单元格类型: STRING 返回值= /api/loginCheck:$.stateCode
+2021-05-24 21:18:20 INFO com.youceedu.interf.util.ExcelUtil:133 -excel内测试用例已成功存入到二维数组testcasedata中
+2021-05-24 21:18:20 INFO com.youceedu.interf.util.PatternUtil:83 -得到Matcher对象
+2021-05-24 21:18:20 INFO com.youceedu.interf.listener.IRetryAnalyzerImpl:22 -失败用例重试第2 次
+2021-05-24 21:18:20 INFO com.youceedu.interf.util.ExcelUtil:29 -实例化类，入参filename= D:\\testcase.xlsx
+2021-05-24 21:18:20 INFO com.youceedu.interf.util.ExcelUtilTest:71 -给测试方法提供测试数据
+2021-05-24 21:18:20 INFO com.youceedu.interf.util.ExcelUtil:41 -成功得到XSSFWorkbook对象 wb
+2021-05-24 21:18:20 INFO com.youceedu.interf.util.ExcelUtil:53 -成功得到sheet对象
+2021-05-24 21:18:20 INFO com.youceedu.interf.util.ExcelUtil:110 -单元格类型: STRING 返回值= 1
+2021-05-24 21:18:20 INFO com.youceedu.interf.util.ExcelUtil:110 -单元格类型: STRING 返回值= YES
+2021-05-24 21:18:20 INFO com.youceedu.interf.util.ExcelUtil:110 -单元格类型: STRING 返回值= 正确的账号和密码登录
+2021-05-24 21:18:20 INFO com.youceedu.interf.util.ExcelUtil:110 -单元格类型: STRING 返回值= POST
+2021-05-24 21:18:20 INFO com.youceedu.interf.util.ExcelUtil:110 -单元格类型: STRING 返回值= http://8.131.245.231:8080
+2021-05-24 21:18:20 INFO com.youceedu.interf.util.ExcelUtil:110 -单元格类型: STRING 返回值= /api/loginCheck
+2021-05-24 21:18:20 INFO com.youceedu.interf.util.ExcelUtil:110 -单元格类型: STRING 返回值= id=123456&passwd=123456&t=${__Random(1,min,max)}
+2021-05-24 21:18:20 INFO com.youceedu.interf.util.ExcelUtil:110 -单元格类型: STRING 返回值= $.msg=管理员登陆成功;$.stateCode=1
+2021-05-24 21:18:20 INFO com.youceedu.interf.util.ExcelUtil:110 -单元格类型: STRING 返回值= NO
+2021-05-24 21:18:20 INFO com.youceedu.interf.util.ExcelUtil:110 -单元格类型: STRING 返回值= /api/loginCheck:$.stateCode
+2021-05-24 21:18:20 INFO com.youceedu.interf.util.ExcelUtil:133 -excel内测试用例已成功存入到二维数组testcasedata中
+2021-05-24 21:18:20 INFO com.youceedu.interf.util.PatternUtil:83 -得到Matcher对象
+2021-05-24 21:18:20 INFO com.youceedu.interf.listener.IRetryAnalyzerImpl:22 -失败用例重试第3 次
+2021-05-24 21:18:20 INFO com.youceedu.interf.util.ExcelUtil:29 -实例化类，入参filename= D:\\testcase.xlsx
+2021-05-24 21:18:20 INFO com.youceedu.interf.util.ExcelUtilTest:71 -给测试方法提供测试数据
+2021-05-24 21:18:20 INFO com.youceedu.interf.util.ExcelUtil:41 -成功得到XSSFWorkbook对象 wb
+2021-05-24 21:18:20 INFO com.youceedu.interf.util.ExcelUtil:53 -成功得到sheet对象
+2021-05-24 21:18:20 INFO com.youceedu.interf.util.ExcelUtil:110 -单元格类型: STRING 返回值= 1
+2021-05-24 21:18:20 INFO com.youceedu.interf.util.ExcelUtil:110 -单元格类型: STRING 返回值= YES
+2021-05-24 21:18:20 INFO com.youceedu.interf.util.ExcelUtil:110 -单元格类型: STRING 返回值= 正确的账号和密码登录
+2021-05-24 21:18:20 INFO com.youceedu.interf.util.ExcelUtil:110 -单元格类型: STRING 返回值= POST
+2021-05-24 21:18:20 INFO com.youceedu.interf.util.ExcelUtil:110 -单元格类型: STRING 返回值= http://8.131.245.231:8080
+2021-05-24 21:18:20 INFO com.youceedu.interf.util.ExcelUtil:110 -单元格类型: STRING 返回值= /api/loginCheck
+2021-05-24 21:18:20 INFO com.youceedu.interf.util.ExcelUtil:110 -单元格类型: STRING 返回值= id=123456&passwd=123456&t=${__Random(1,min,max)}
+2021-05-24 21:18:20 INFO com.youceedu.interf.util.ExcelUtil:110 -单元格类型: STRING 返回值= $.msg=管理员登陆成功;$.stateCode=1
+2021-05-24 21:18:20 INFO com.youceedu.interf.util.ExcelUtil:110 -单元格类型: STRING 返回值= NO
+2021-05-24 21:18:20 INFO com.youceedu.interf.util.ExcelUtil:110 -单元格类型: STRING 返回值= /api/loginCheck:$.stateCode
+2021-05-24 21:18:20 INFO com.youceedu.interf.util.ExcelUtil:133 -excel内测试用例已成功存入到二维数组testcasedata中
+2021-05-24 21:18:20 INFO com.youceedu.interf.util.PatternUtil:83 -得到Matcher对象
+2021-05-24 21:18:20 INFO com.youceedu.interf.listener.IRetryAnalyzerImpl:22 -失败用例重试第4 次
+2021-05-24 21:18:20 INFO com.youceedu.interf.util.ExcelUtil:29 -实例化类，入参filename= D:\\testcase.xlsx
+2021-05-24 21:18:20 INFO com.youceedu.interf.util.ExcelUtilTest:71 -给测试方法提供测试数据
+2021-05-24 21:18:20 INFO com.youceedu.interf.util.ExcelUtil:41 -成功得到XSSFWorkbook对象 wb
+2021-05-24 21:18:20 INFO com.youceedu.interf.util.ExcelUtil:53 -成功得到sheet对象
+2021-05-24 21:18:20 INFO com.youceedu.interf.util.ExcelUtil:110 -单元格类型: STRING 返回值= 1
+2021-05-24 21:18:20 INFO com.youceedu.interf.util.ExcelUtil:110 -单元格类型: STRING 返回值= YES
+2021-05-24 21:18:20 INFO com.youceedu.interf.util.ExcelUtil:110 -单元格类型: STRING 返回值= 正确的账号和密码登录
+2021-05-24 21:18:20 INFO com.youceedu.interf.util.ExcelUtil:110 -单元格类型: STRING 返回值= POST
+2021-05-24 21:18:20 INFO com.youceedu.interf.util.ExcelUtil:110 -单元格类型: STRING 返回值= http://8.131.245.231:8080
+2021-05-24 21:18:20 INFO com.youceedu.interf.util.ExcelUtil:110 -单元格类型: STRING 返回值= /api/loginCheck
+2021-05-24 21:18:20 INFO com.youceedu.interf.util.ExcelUtil:110 -单元格类型: STRING 返回值= id=123456&passwd=123456&t=${__Random(1,min,max)}
+2021-05-24 21:18:20 INFO com.youceedu.interf.util.ExcelUtil:110 -单元格类型: STRING 返回值= $.msg=管理员登陆成功;$.stateCode=1
+2021-05-24 21:18:20 INFO com.youceedu.interf.util.ExcelUtil:110 -单元格类型: STRING 返回值= NO
+2021-05-24 21:18:20 INFO com.youceedu.interf.util.ExcelUtil:110 -单元格类型: STRING 返回值= /api/loginCheck:$.stateCode
+2021-05-24 21:18:20 INFO com.youceedu.interf.util.ExcelUtil:133 -excel内测试用例已成功存入到二维数组testcasedata中
+2021-05-24 21:18:20 INFO com.youceedu.interf.util.PatternUtil:83 -得到Matcher对象
+2021-05-24 21:18:20 INFO com.youceedu.interf.listener.TestListenerImpl:43 -失败用例去重完成
+2021-05-24 21:18:55 INFO com.youceedu.interf.util.ExcelUtilTest:24 -传入excel路径 filepath: D:\\testcase.xlsx
+2021-05-24 21:18:55 INFO com.youceedu.interf.util.ExcelUtil:29 -实例化类，入参filename= D:\\testcase.xlsx
+2021-05-24 21:18:55 INFO com.youceedu.interf.util.ExcelUtilTest:72 -给测试方法提供测试数据
+2021-05-24 21:18:55 INFO com.youceedu.interf.util.ExcelUtil:41 -成功得到XSSFWorkbook对象 wb
+2021-05-24 21:18:55 INFO com.youceedu.interf.util.ExcelUtil:53 -成功得到sheet对象
+2021-05-24 21:18:55 INFO com.youceedu.interf.util.ExcelUtil:110 -单元格类型: STRING 返回值= 1
+2021-05-24 21:18:55 INFO com.youceedu.interf.util.ExcelUtil:110 -单元格类型: STRING 返回值= YES
+2021-05-24 21:18:55 INFO com.youceedu.interf.util.ExcelUtil:110 -单元格类型: STRING 返回值= 正确的账号和密码登录
+2021-05-24 21:18:55 INFO com.youceedu.interf.util.ExcelUtil:110 -单元格类型: STRING 返回值= POST
+2021-05-24 21:18:55 INFO com.youceedu.interf.util.ExcelUtil:110 -单元格类型: STRING 返回值= http://8.131.245.231:8080
+2021-05-24 21:18:55 INFO com.youceedu.interf.util.ExcelUtil:110 -单元格类型: STRING 返回值= /api/loginCheck
+2021-05-24 21:18:55 INFO com.youceedu.interf.util.ExcelUtil:110 -单元格类型: STRING 返回值= id=123456&passwd=123456&t=${__Random(1,min,max)}
+2021-05-24 21:18:55 INFO com.youceedu.interf.util.ExcelUtil:110 -单元格类型: STRING 返回值= $.msg=管理员登陆成功;$.stateCode=1
+2021-05-24 21:18:55 INFO com.youceedu.interf.util.ExcelUtil:110 -单元格类型: STRING 返回值= NO
+2021-05-24 21:18:55 INFO com.youceedu.interf.util.ExcelUtil:110 -单元格类型: STRING 返回值= /api/loginCheck:$.stateCode
+2021-05-24 21:18:55 INFO com.youceedu.interf.util.ExcelUtil:133 -excel内测试用例已成功存入到二维数组testcasedata中
+2021-05-24 21:18:55 INFO com.youceedu.interf.util.PatternUtil:83 -得到Matcher对象
+2021-05-24 21:18:55 INFO com.youceedu.interf.listener.IRetryAnalyzerImpl:22 -失败用例重试第2 次
+2021-05-24 21:18:55 INFO com.youceedu.interf.util.ExcelUtil:29 -实例化类，入参filename= D:\\testcase.xlsx
+2021-05-24 21:18:55 INFO com.youceedu.interf.util.ExcelUtilTest:72 -给测试方法提供测试数据
+2021-05-24 21:18:55 INFO com.youceedu.interf.util.ExcelUtil:41 -成功得到XSSFWorkbook对象 wb
+2021-05-24 21:18:55 INFO com.youceedu.interf.util.ExcelUtil:53 -成功得到sheet对象
+2021-05-24 21:18:55 INFO com.youceedu.interf.util.ExcelUtil:110 -单元格类型: STRING 返回值= 1
+2021-05-24 21:18:55 INFO com.youceedu.interf.util.ExcelUtil:110 -单元格类型: STRING 返回值= YES
+2021-05-24 21:18:55 INFO com.youceedu.interf.util.ExcelUtil:110 -单元格类型: STRING 返回值= 正确的账号和密码登录
+2021-05-24 21:18:55 INFO com.youceedu.interf.util.ExcelUtil:110 -单元格类型: STRING 返回值= POST
+2021-05-24 21:18:55 INFO com.youceedu.interf.util.ExcelUtil:110 -单元格类型: STRING 返回值= http://8.131.245.231:8080
+2021-05-24 21:18:55 INFO com.youceedu.interf.util.ExcelUtil:110 -单元格类型: STRING 返回值= /api/loginCheck
+2021-05-24 21:18:55 INFO com.youceedu.interf.util.ExcelUtil:110 -单元格类型: STRING 返回值= id=123456&passwd=123456&t=${__Random(1,min,max)}
+2021-05-24 21:18:55 INFO com.youceedu.interf.util.ExcelUtil:110 -单元格类型: STRING 返回值= $.msg=管理员登陆成功;$.stateCode=1
+2021-05-24 21:18:55 INFO com.youceedu.interf.util.ExcelUtil:110 -单元格类型: STRING 返回值= NO
+2021-05-24 21:18:55 INFO com.youceedu.interf.util.ExcelUtil:110 -单元格类型: STRING 返回值= /api/loginCheck:$.stateCode
+2021-05-24 21:18:55 INFO com.youceedu.interf.util.ExcelUtil:133 -excel内测试用例已成功存入到二维数组testcasedata中
+2021-05-24 21:18:55 INFO com.youceedu.interf.util.PatternUtil:83 -得到Matcher对象
+2021-05-24 21:18:55 INFO com.youceedu.interf.listener.IRetryAnalyzerImpl:22 -失败用例重试第3 次
+2021-05-24 21:18:55 INFO com.youceedu.interf.util.ExcelUtil:29 -实例化类，入参filename= D:\\testcase.xlsx
+2021-05-24 21:18:55 INFO com.youceedu.interf.util.ExcelUtilTest:72 -给测试方法提供测试数据
+2021-05-24 21:18:55 INFO com.youceedu.interf.util.ExcelUtil:41 -成功得到XSSFWorkbook对象 wb
+2021-05-24 21:18:55 INFO com.youceedu.interf.util.ExcelUtil:53 -成功得到sheet对象
+2021-05-24 21:18:55 INFO com.youceedu.interf.util.ExcelUtil:110 -单元格类型: STRING 返回值= 1
+2021-05-24 21:18:55 INFO com.youceedu.interf.util.ExcelUtil:110 -单元格类型: STRING 返回值= YES
+2021-05-24 21:18:55 INFO com.youceedu.interf.util.ExcelUtil:110 -单元格类型: STRING 返回值= 正确的账号和密码登录
+2021-05-24 21:18:55 INFO com.youceedu.interf.util.ExcelUtil:110 -单元格类型: STRING 返回值= POST
+2021-05-24 21:18:55 INFO com.youceedu.interf.util.ExcelUtil:110 -单元格类型: STRING 返回值= http://8.131.245.231:8080
+2021-05-24 21:18:55 INFO com.youceedu.interf.util.ExcelUtil:110 -单元格类型: STRING 返回值= /api/loginCheck
+2021-05-24 21:18:55 INFO com.youceedu.interf.util.ExcelUtil:110 -单元格类型: STRING 返回值= id=123456&passwd=123456&t=${__Random(1,min,max)}
+2021-05-24 21:18:55 INFO com.youceedu.interf.util.ExcelUtil:110 -单元格类型: STRING 返回值= $.msg=管理员登陆成功;$.stateCode=1
+2021-05-24 21:18:55 INFO com.youceedu.interf.util.ExcelUtil:110 -单元格类型: STRING 返回值= NO
+2021-05-24 21:18:55 INFO com.youceedu.interf.util.ExcelUtil:110 -单元格类型: STRING 返回值= /api/loginCheck:$.stateCode
+2021-05-24 21:18:55 INFO com.youceedu.interf.util.ExcelUtil:133 -excel内测试用例已成功存入到二维数组testcasedata中
+2021-05-24 21:18:55 INFO com.youceedu.interf.util.PatternUtil:83 -得到Matcher对象
+2021-05-24 21:18:55 INFO com.youceedu.interf.listener.IRetryAnalyzerImpl:22 -失败用例重试第4 次
+2021-05-24 21:18:55 INFO com.youceedu.interf.util.ExcelUtil:29 -实例化类，入参filename= D:\\testcase.xlsx
+2021-05-24 21:18:55 INFO com.youceedu.interf.util.ExcelUtilTest:72 -给测试方法提供测试数据
+2021-05-24 21:18:55 INFO com.youceedu.interf.util.ExcelUtil:41 -成功得到XSSFWorkbook对象 wb
+2021-05-24 21:18:55 INFO com.youceedu.interf.util.ExcelUtil:53 -成功得到sheet对象
+2021-05-24 21:18:55 INFO com.youceedu.interf.util.ExcelUtil:110 -单元格类型: STRING 返回值= 1
+2021-05-24 21:18:55 INFO com.youceedu.interf.util.ExcelUtil:110 -单元格类型: STRING 返回值= YES
+2021-05-24 21:18:55 INFO com.youceedu.interf.util.ExcelUtil:110 -单元格类型: STRING 返回值= 正确的账号和密码登录
+2021-05-24 21:18:55 INFO com.youceedu.interf.util.ExcelUtil:110 -单元格类型: STRING 返回值= POST
+2021-05-24 21:18:55 INFO com.youceedu.interf.util.ExcelUtil:110 -单元格类型: STRING 返回值= http://8.131.245.231:8080
+2021-05-24 21:18:55 INFO com.youceedu.interf.util.ExcelUtil:110 -单元格类型: STRING 返回值= /api/loginCheck
+2021-05-24 21:18:55 INFO com.youceedu.interf.util.ExcelUtil:110 -单元格类型: STRING 返回值= id=123456&passwd=123456&t=${__Random(1,min,max)}
+2021-05-24 21:18:55 INFO com.youceedu.interf.util.ExcelUtil:110 -单元格类型: STRING 返回值= $.msg=管理员登陆成功;$.stateCode=1
+2021-05-24 21:18:55 INFO com.youceedu.interf.util.ExcelUtil:110 -单元格类型: STRING 返回值= NO
+2021-05-24 21:18:55 INFO com.youceedu.interf.util.ExcelUtil:110 -单元格类型: STRING 返回值= /api/loginCheck:$.stateCode
+2021-05-24 21:18:55 INFO com.youceedu.interf.util.ExcelUtil:133 -excel内测试用例已成功存入到二维数组testcasedata中
+2021-05-24 21:18:55 INFO com.youceedu.interf.util.PatternUtil:83 -得到Matcher对象
+2021-05-24 21:18:55 INFO com.youceedu.interf.listener.TestListenerImpl:43 -失败用例去重完成
+2021-05-24 21:20:08 INFO com.youceedu.interf.util.ExcelUtilTest:24 -传入excel路径 filepath: D:\\testcase.xlsx
+2021-05-24 21:20:08 INFO com.youceedu.interf.util.ExcelUtil:29 -实例化类，入参filename= D:\\testcase.xlsx
+2021-05-24 21:20:08 INFO com.youceedu.interf.util.ExcelUtilTest:72 -给测试方法提供测试数据
+2021-05-24 21:20:08 INFO com.youceedu.interf.util.ExcelUtil:41 -成功得到XSSFWorkbook对象 wb
+2021-05-24 21:20:08 INFO com.youceedu.interf.util.ExcelUtil:53 -成功得到sheet对象
+2021-05-24 21:20:08 INFO com.youceedu.interf.util.ExcelUtil:110 -单元格类型: STRING 返回值= 1
+2021-05-24 21:20:08 INFO com.youceedu.interf.util.ExcelUtil:110 -单元格类型: STRING 返回值= YES
+2021-05-24 21:20:08 INFO com.youceedu.interf.util.ExcelUtil:110 -单元格类型: STRING 返回值= 正确的账号和密码登录
+2021-05-24 21:20:08 INFO com.youceedu.interf.util.ExcelUtil:110 -单元格类型: STRING 返回值= POST
+2021-05-24 21:20:08 INFO com.youceedu.interf.util.ExcelUtil:110 -单元格类型: STRING 返回值= http://8.131.245.231:8080
+2021-05-24 21:20:08 INFO com.youceedu.interf.util.ExcelUtil:110 -单元格类型: STRING 返回值= /api/loginCheck
+2021-05-24 21:20:08 INFO com.youceedu.interf.util.ExcelUtil:110 -单元格类型: STRING 返回值= id=123456&passwd=123456&t=${__Random(1,1,50)}
+2021-05-24 21:20:08 INFO com.youceedu.interf.util.ExcelUtil:110 -单元格类型: STRING 返回值= $.msg=管理员登陆成功;$.stateCode=1
+2021-05-24 21:20:08 INFO com.youceedu.interf.util.ExcelUtil:110 -单元格类型: STRING 返回值= NO
+2021-05-24 21:20:08 INFO com.youceedu.interf.util.ExcelUtil:110 -单元格类型: STRING 返回值= /api/loginCheck:$.stateCode
+2021-05-24 21:20:08 INFO com.youceedu.interf.util.ExcelUtil:133 -excel内测试用例已成功存入到二维数组testcasedata中
+2021-05-24 21:20:08 INFO com.youceedu.interf.util.PatternUtil:83 -得到Matcher对象
+2021-05-24 21:20:08 INFO com.youceedu.interf.util.PatternUtil:83 -得到Matcher对象
+2021-05-24 21:20:08 INFO com.youceedu.interf.util.PatternUtil:53 -得到经过处理后的请求数据reqData= id=123456&passwd=123456&t=27
+2021-05-24 21:20:09 INFO com.youceedu.interf.util.PatternUtil:83 -得到Matcher对象
+2021-05-24 21:20:09 INFO com.youceedu.interf.util.PatternUtil:102 -对比预期值： 管理员登陆成功 与实际值: 管理员登陆成功
+2021-05-24 21:20:09 INFO com.youceedu.interf.util.PatternUtil:102 -对比预期值： 1 与实际值: 1
+2021-05-24 21:20:09 INFO com.youceedu.interf.listener.TestListenerImpl:43 -失败用例去重完成
+2021-05-24 21:21:21 INFO com.youceedu.interf.util.ExcelUtilTest:23 -传入excel路径 filepath: D:\\testcase.xlsx
+2021-05-24 21:21:21 INFO com.youceedu.interf.util.ExcelUtil:29 -实例化类，入参filename= D:\\testcase.xlsx
+2021-05-24 21:21:21 INFO com.youceedu.interf.util.ExcelUtilTest:71 -给测试方法提供测试数据
+2021-05-24 21:21:22 INFO com.youceedu.interf.util.ExcelUtil:41 -成功得到XSSFWorkbook对象 wb
+2021-05-24 21:21:22 INFO com.youceedu.interf.util.ExcelUtil:53 -成功得到sheet对象
+2021-05-24 21:21:22 INFO com.youceedu.interf.util.ExcelUtil:110 -单元格类型: STRING 返回值= 1
+2021-05-24 21:21:22 INFO com.youceedu.interf.util.ExcelUtil:110 -单元格类型: STRING 返回值= YES
+2021-05-24 21:21:22 INFO com.youceedu.interf.util.ExcelUtil:110 -单元格类型: STRING 返回值= 正确的账号和密码登录
+2021-05-24 21:21:22 INFO com.youceedu.interf.util.ExcelUtil:110 -单元格类型: STRING 返回值= POST
+2021-05-24 21:21:22 INFO com.youceedu.interf.util.ExcelUtil:110 -单元格类型: STRING 返回值= http://8.131.245.231:8080
+2021-05-24 21:21:22 INFO com.youceedu.interf.util.ExcelUtil:110 -单元格类型: STRING 返回值= /api/loginCheck
+2021-05-24 21:21:22 INFO com.youceedu.interf.util.ExcelUtil:110 -单元格类型: STRING 返回值= id=123456&passwd=123456&t=${__Random(1,1,50)}
+2021-05-24 21:21:22 INFO com.youceedu.interf.util.ExcelUtil:110 -单元格类型: STRING 返回值= $.msg=管理员登陆成功;$.stateCode=1
+2021-05-24 21:21:22 INFO com.youceedu.interf.util.ExcelUtil:110 -单元格类型: STRING 返回值= NO
+2021-05-24 21:21:22 INFO com.youceedu.interf.util.ExcelUtil:110 -单元格类型: STRING 返回值= /api/loginCheck:$.stateCode
+2021-05-24 21:21:22 INFO com.youceedu.interf.util.ExcelUtil:133 -excel内测试用例已成功存入到二维数组testcasedata中
+2021-05-24 21:21:22 INFO com.youceedu.interf.util.PatternUtil:83 -得到Matcher对象
+2021-05-24 21:21:22 INFO com.youceedu.interf.util.PatternUtil:83 -得到Matcher对象
+2021-05-24 21:21:22 INFO com.youceedu.interf.util.PatternUtil:53 -得到经过处理后的请求数据reqData= id=123456&passwd=123456&t=31
+2021-05-24 21:21:23 INFO com.youceedu.interf.util.PatternUtil:83 -得到Matcher对象
+2021-05-24 21:21:23 INFO com.youceedu.interf.util.PatternUtil:102 -对比预期值： 管理员登陆成功 与实际值: 管理员登陆成功
+2021-05-24 21:21:23 INFO com.youceedu.interf.util.PatternUtil:102 -对比预期值： 1 与实际值: 1
+2021-05-24 21:21:23 INFO com.youceedu.interf.listener.TestListenerImpl:43 -失败用例去重完成
+2021-05-24 21:42:32 INFO com.youceedu.interf.util.ExcelUtilTest:29 -传入excel路径 filepath: D:\\testcase.xlsx
+2021-05-24 21:42:32 INFO com.youceedu.interf.util.ExcelUtil:29 -实例化类，入参filename= D:\\testcase.xlsx
+2021-05-24 21:42:32 INFO com.youceedu.interf.util.ExcelUtilTest:78 -给测试方法提供测试数据
+2021-05-24 21:42:32 INFO com.youceedu.interf.util.ExcelUtil:41 -成功得到XSSFWorkbook对象 wb
+2021-05-24 21:42:32 INFO com.youceedu.interf.util.ExcelUtil:53 -成功得到sheet对象
+2021-05-24 21:42:32 INFO com.youceedu.interf.util.ExcelUtil:110 -单元格类型: STRING 返回值= 1
+2021-05-24 21:42:32 INFO com.youceedu.interf.util.ExcelUtil:110 -单元格类型: STRING 返回值= YES
+2021-05-24 21:42:32 INFO com.youceedu.interf.util.ExcelUtil:110 -单元格类型: STRING 返回值= 王哲--正确的账号和密码登录
+2021-05-24 21:42:32 INFO com.youceedu.interf.util.ExcelUtil:110 -单元格类型: STRING 返回值= POST
+2021-05-24 21:42:32 INFO com.youceedu.interf.util.ExcelUtil:110 -单元格类型: STRING 返回值= http://8.131.245.231:8080
+2021-05-24 21:42:32 INFO com.youceedu.interf.util.ExcelUtil:110 -单元格类型: STRING 返回值= /api/loginCheck
+2021-05-24 21:42:32 INFO com.youceedu.interf.util.ExcelUtil:110 -单元格类型: STRING 返回值= id=123456&passwd=123456&t=${__Random(1,1,50)}
+2021-05-24 21:42:32 INFO com.youceedu.interf.util.ExcelUtil:110 -单元格类型: STRING 返回值= $.msg=管理员登陆成功;$.stateCode=1
+2021-05-24 21:42:32 INFO com.youceedu.interf.util.ExcelUtil:110 -单元格类型: STRING 返回值= NO
+2021-05-24 21:42:32 INFO com.youceedu.interf.util.ExcelUtil:110 -单元格类型: STRING 返回值= /api/loginCheck:$.stateCode
+2021-05-24 21:42:32 INFO com.youceedu.interf.util.ExcelUtil:133 -excel内测试用例已成功存入到二维数组testcasedata中
+2021-05-24 21:42:32 INFO com.youceedu.interf.util.PatternUtil:81 -得到Matcher对象
+2021-05-24 21:42:32 INFO com.youceedu.interf.util.PatternUtil:81 -得到Matcher对象
+2021-05-24 21:42:32 INFO com.youceedu.interf.util.PatternUtil:51 -得到经过处理后的请求数据reqData= id=123456&passwd=123456&t=43
+2021-05-24 21:42:33 INFO com.youceedu.interf.util.PatternUtil:81 -得到Matcher对象
+2021-05-24 21:42:33 INFO com.youceedu.interf.util.PatternUtil:81 -得到Matcher对象
+2021-05-24 21:42:33 INFO com.youceedu.interf.util.PatternUtil:100 -对比预期值： 管理员登陆成功 与实际值: 管理员登陆成功
+2021-05-24 21:42:33 INFO com.youceedu.interf.util.PatternUtil:100 -对比预期值： 1 与实际值: 1
+2021-05-24 21:42:34 INFO com.youceedu.interf.listener.TestListenerImpl:43 -失败用例去重完成
+2021-06-04 21:57:29 INFO com.youceedu.interf.util.ExcelUtilTest:29 -传入excel路径 filepath: D:\\testcase.xlsx
+2021-06-04 21:57:29 INFO com.youceedu.interf.util.ExcelUtil:29 -实例化类，入参filename= D:\\testcase.xlsx
+2021-06-04 21:57:29 INFO com.youceedu.interf.util.ExcelUtilTest:77 -给测试方法提供测试数据
+2021-06-04 21:57:29 INFO com.youceedu.interf.util.ExcelUtil:41 -成功得到XSSFWorkbook对象 wb
+2021-06-04 21:57:29 INFO com.youceedu.interf.util.ExcelUtil:53 -成功得到sheet对象
+2021-06-04 21:57:29 INFO com.youceedu.interf.util.ExcelUtil:110 -单元格类型: STRING 返回值= 1
+2021-06-04 21:57:29 INFO com.youceedu.interf.util.ExcelUtil:110 -单元格类型: STRING 返回值= YES
+2021-06-04 21:57:29 INFO com.youceedu.interf.util.ExcelUtil:110 -单元格类型: STRING 返回值= 王哲--正确的账号和密码登录
+2021-06-04 21:57:29 INFO com.youceedu.interf.util.ExcelUtil:110 -单元格类型: STRING 返回值= POST
+2021-06-04 21:57:29 INFO com.youceedu.interf.util.ExcelUtil:110 -单元格类型: STRING 返回值= http://8.131.245.231:8080
+2021-06-04 21:57:29 INFO com.youceedu.interf.util.ExcelUtil:110 -单元格类型: STRING 返回值= /api/loginCheck
+2021-06-04 21:57:29 INFO com.youceedu.interf.util.ExcelUtil:110 -单元格类型: STRING 返回值= id=123456&passwd=123456&t=${__Random(1,1,50)}
+2021-06-04 21:57:29 INFO com.youceedu.interf.util.ExcelUtil:110 -单元格类型: STRING 返回值= $.msg=管理员登陆成功;$.stateCode=1
+2021-06-04 21:57:29 INFO com.youceedu.interf.util.ExcelUtil:110 -单元格类型: STRING 返回值= NO
+2021-06-04 21:57:29 INFO com.youceedu.interf.util.ExcelUtil:110 -单元格类型: STRING 返回值= /api/loginCheck:$.stateCode
+2021-06-04 21:57:29 INFO com.youceedu.interf.util.ExcelUtil:133 -excel内测试用例已成功存入到二维数组testcasedata中
+2021-06-04 21:57:29 INFO com.youceedu.interf.util.PatternUtil:81 -得到Matcher对象
+2021-06-04 21:57:29 INFO com.youceedu.interf.util.PatternUtil:51 -得到经过处理后的请求数据reqData= id=123456&passwd=123456&t=40
+2021-06-04 21:57:30 INFO com.youceedu.interf.util.PatternUtil:81 -得到Matcher对象
+2021-06-04 21:57:30 INFO com.youceedu.interf.listener.IRetryAnalyzerImpl:22 -失败用例重试第2 次
+2021-06-04 21:57:30 INFO com.youceedu.interf.util.ExcelUtil:29 -实例化类，入参filename= D:\\testcase.xlsx
+2021-06-04 21:57:30 INFO com.youceedu.interf.util.ExcelUtilTest:77 -给测试方法提供测试数据
+2021-06-04 21:57:30 INFO com.youceedu.interf.util.ExcelUtil:41 -成功得到XSSFWorkbook对象 wb
+2021-06-04 21:57:30 INFO com.youceedu.interf.util.ExcelUtil:53 -成功得到sheet对象
+2021-06-04 21:57:30 INFO com.youceedu.interf.util.ExcelUtil:110 -单元格类型: STRING 返回值= 1
+2021-06-04 21:57:30 INFO com.youceedu.interf.util.ExcelUtil:110 -单元格类型: STRING 返回值= YES
+2021-06-04 21:57:30 INFO com.youceedu.interf.util.ExcelUtil:110 -单元格类型: STRING 返回值= 王哲--正确的账号和密码登录
+2021-06-04 21:57:30 INFO com.youceedu.interf.util.ExcelUtil:110 -单元格类型: STRING 返回值= POST
+2021-06-04 21:57:30 INFO com.youceedu.interf.util.ExcelUtil:110 -单元格类型: STRING 返回值= http://8.131.245.231:8080
+2021-06-04 21:57:30 INFO com.youceedu.interf.util.ExcelUtil:110 -单元格类型: STRING 返回值= /api/loginCheck
+2021-06-04 21:57:30 INFO com.youceedu.interf.util.ExcelUtil:110 -单元格类型: STRING 返回值= id=123456&passwd=123456&t=${__Random(1,1,50)}
+2021-06-04 21:57:30 INFO com.youceedu.interf.util.ExcelUtil:110 -单元格类型: STRING 返回值= $.msg=管理员登陆成功;$.stateCode=1
+2021-06-04 21:57:30 INFO com.youceedu.interf.util.ExcelUtil:110 -单元格类型: STRING 返回值= NO
+2021-06-04 21:57:30 INFO com.youceedu.interf.util.ExcelUtil:110 -单元格类型: STRING 返回值= /api/loginCheck:$.stateCode
+2021-06-04 21:57:30 INFO com.youceedu.interf.util.ExcelUtil:133 -excel内测试用例已成功存入到二维数组testcasedata中
+2021-06-04 21:57:30 INFO com.youceedu.interf.util.PatternUtil:81 -得到Matcher对象
+2021-06-04 21:57:30 INFO com.youceedu.interf.util.PatternUtil:51 -得到经过处理后的请求数据reqData= id=123456&passwd=123456&t=3
+2021-06-04 21:57:30 INFO com.youceedu.interf.util.PatternUtil:81 -得到Matcher对象
+2021-06-04 21:57:30 INFO com.youceedu.interf.listener.IRetryAnalyzerImpl:22 -失败用例重试第3 次
+2021-06-04 21:57:30 INFO com.youceedu.interf.util.ExcelUtil:29 -实例化类，入参filename= D:\\testcase.xlsx
+2021-06-04 21:57:30 INFO com.youceedu.interf.util.ExcelUtilTest:77 -给测试方法提供测试数据
+2021-06-04 21:57:30 INFO com.youceedu.interf.util.ExcelUtil:41 -成功得到XSSFWorkbook对象 wb
+2021-06-04 21:57:30 INFO com.youceedu.interf.util.ExcelUtil:53 -成功得到sheet对象
+2021-06-04 21:57:30 INFO com.youceedu.interf.util.ExcelUtil:110 -单元格类型: STRING 返回值= 1
+2021-06-04 21:57:30 INFO com.youceedu.interf.util.ExcelUtil:110 -单元格类型: STRING 返回值= YES
+2021-06-04 21:57:30 INFO com.youceedu.interf.util.ExcelUtil:110 -单元格类型: STRING 返回值= 王哲--正确的账号和密码登录
+2021-06-04 21:57:30 INFO com.youceedu.interf.util.ExcelUtil:110 -单元格类型: STRING 返回值= POST
+2021-06-04 21:57:30 INFO com.youceedu.interf.util.ExcelUtil:110 -单元格类型: STRING 返回值= http://8.131.245.231:8080
+2021-06-04 21:57:30 INFO com.youceedu.interf.util.ExcelUtil:110 -单元格类型: STRING 返回值= /api/loginCheck
+2021-06-04 21:57:30 INFO com.youceedu.interf.util.ExcelUtil:110 -单元格类型: STRING 返回值= id=123456&passwd=123456&t=${__Random(1,1,50)}
+2021-06-04 21:57:30 INFO com.youceedu.interf.util.ExcelUtil:110 -单元格类型: STRING 返回值= $.msg=管理员登陆成功;$.stateCode=1
+2021-06-04 21:57:30 INFO com.youceedu.interf.util.ExcelUtil:110 -单元格类型: STRING 返回值= NO
+2021-06-04 21:57:30 INFO com.youceedu.interf.util.ExcelUtil:110 -单元格类型: STRING 返回值= /api/loginCheck:$.stateCode
+2021-06-04 21:57:30 INFO com.youceedu.interf.util.ExcelUtil:133 -excel内测试用例已成功存入到二维数组testcasedata中
+2021-06-04 21:57:30 INFO com.youceedu.interf.util.PatternUtil:81 -得到Matcher对象
+2021-06-04 21:57:30 INFO com.youceedu.interf.util.PatternUtil:51 -得到经过处理后的请求数据reqData= id=123456&passwd=123456&t=20
+2021-06-04 21:57:30 INFO com.youceedu.interf.util.PatternUtil:81 -得到Matcher对象
+2021-06-04 21:57:30 INFO com.youceedu.interf.util.PatternUtil:81 -得到Matcher对象
+2021-06-04 21:57:30 INFO com.youceedu.interf.util.PatternUtil:100 -对比预期值： 管理员登陆成功 与实际值: 管理员登陆成功
+2021-06-04 21:57:30 INFO com.youceedu.interf.util.PatternUtil:100 -对比预期值： 1 与实际值: 1
+2021-06-04 21:57:30 INFO com.youceedu.interf.listener.TestListenerImpl:43 -失败用例去重完成
+2021-06-04 21:58:54 INFO com.youceedu.interf.util.ExcelUtilTest:29 -传入excel路径 filepath: D:\\testcase.xlsx
+2021-06-04 21:58:54 INFO com.youceedu.interf.util.ExcelUtil:29 -实例化类，入参filename= D:\\testcase.xlsx
+2021-06-04 21:58:54 INFO com.youceedu.interf.util.ExcelUtilTest:77 -给测试方法提供测试数据
+2021-06-04 21:58:54 INFO com.youceedu.interf.util.ExcelUtil:41 -成功得到XSSFWorkbook对象 wb
+2021-06-04 21:58:54 INFO com.youceedu.interf.util.ExcelUtil:53 -成功得到sheet对象
+2021-06-04 21:58:54 INFO com.youceedu.interf.util.ExcelUtil:110 -单元格类型: STRING 返回值= 1
+2021-06-04 21:58:54 INFO com.youceedu.interf.util.ExcelUtil:110 -单元格类型: STRING 返回值= YES
+2021-06-04 21:58:54 INFO com.youceedu.interf.util.ExcelUtil:110 -单元格类型: STRING 返回值= 王哲--正确的账号和密码登录
+2021-06-04 21:58:54 INFO com.youceedu.interf.util.ExcelUtil:110 -单元格类型: STRING 返回值= POST
+2021-06-04 21:58:54 INFO com.youceedu.interf.util.ExcelUtil:110 -单元格类型: STRING 返回值= http://8.131.245.231:8080
+2021-06-04 21:58:54 INFO com.youceedu.interf.util.ExcelUtil:110 -单元格类型: STRING 返回值= /api/loginCheck
+2021-06-04 21:58:54 INFO com.youceedu.interf.util.ExcelUtil:110 -单元格类型: STRING 返回值= id=123456&passwd=123456&t=${__Random(1,1,50)}
+2021-06-04 21:58:54 INFO com.youceedu.interf.util.ExcelUtil:110 -单元格类型: STRING 返回值= $.msg=管理员登陆成功;$.stateCode=1
+2021-06-04 21:58:54 INFO com.youceedu.interf.util.ExcelUtil:110 -单元格类型: STRING 返回值= NO
+2021-06-04 21:58:54 INFO com.youceedu.interf.util.ExcelUtil:110 -单元格类型: STRING 返回值= /api/loginCheck:$.stateCode
+2021-06-04 21:58:54 INFO com.youceedu.interf.util.ExcelUtil:133 -excel内测试用例已成功存入到二维数组testcasedata中
+2021-06-04 21:58:54 INFO com.youceedu.interf.util.PatternUtil:81 -得到Matcher对象
+2021-06-04 21:58:54 INFO com.youceedu.interf.util.PatternUtil:51 -得到经过处理后的请求数据reqData= id=123456&passwd=123456&t=12
+2021-06-04 21:58:55 INFO com.youceedu.interf.util.PatternUtil:81 -得到Matcher对象
+2021-06-04 21:58:55 INFO com.youceedu.interf.util.PatternUtil:81 -得到Matcher对象
+2021-06-04 21:58:55 INFO com.youceedu.interf.util.PatternUtil:100 -对比预期值： 管理员登陆成功 与实际值: 管理员登陆成功
+2021-06-04 21:58:55 INFO com.youceedu.interf.util.PatternUtil:100 -对比预期值： 1 与实际值: 1
+2021-06-04 21:58:55 INFO com.youceedu.interf.listener.TestListenerImpl:43 -失败用例去重完成
+2021-06-04 22:12:46 INFO com.youceedu.interf.util.ExcelUtilTest:29 -传入excel路径 filepath: D:\\testcase.xlsx
+2021-06-04 22:12:46 INFO com.youceedu.interf.util.ExcelUtil:29 -实例化类，入参filename= D:\\testcase.xlsx
+2021-06-04 22:12:46 INFO com.youceedu.interf.util.ExcelUtilTest:77 -给测试方法提供测试数据
+2021-06-04 22:12:46 INFO com.youceedu.interf.util.ExcelUtil:41 -成功得到XSSFWorkbook对象 wb
+2021-06-04 22:12:46 INFO com.youceedu.interf.util.ExcelUtil:53 -成功得到sheet对象
+2021-06-04 22:12:46 INFO com.youceedu.interf.util.ExcelUtil:110 -单元格类型: STRING 返回值= 1
+2021-06-04 22:12:46 INFO com.youceedu.interf.util.ExcelUtil:110 -单元格类型: STRING 返回值= YES
+2021-06-04 22:12:46 INFO com.youceedu.interf.util.ExcelUtil:110 -单元格类型: STRING 返回值= 王哲--正确的账号和密码登录
+2021-06-04 22:12:46 INFO com.youceedu.interf.util.ExcelUtil:110 -单元格类型: STRING 返回值= POST
+2021-06-04 22:12:46 INFO com.youceedu.interf.util.ExcelUtil:110 -单元格类型: STRING 返回值= http://8.131.245.231:8080
+2021-06-04 22:12:46 INFO com.youceedu.interf.util.ExcelUtil:110 -单元格类型: STRING 返回值= /api/loginCheck
+2021-06-04 22:12:46 INFO com.youceedu.interf.util.ExcelUtil:110 -单元格类型: STRING 返回值= id=123456&passwd=123456&t=${__Random(1,1,50)}
+2021-06-04 22:12:46 INFO com.youceedu.interf.util.ExcelUtil:110 -单元格类型: STRING 返回值= $.msg=管理员登陆成功;$.stateCode=1
+2021-06-04 22:12:46 INFO com.youceedu.interf.util.ExcelUtil:110 -单元格类型: STRING 返回值= NO
+2021-06-04 22:12:46 INFO com.youceedu.interf.util.ExcelUtil:110 -单元格类型: STRING 返回值= /api/loginCheck:$.stateCode
+2021-06-04 22:12:46 INFO com.youceedu.interf.util.ExcelUtil:133 -excel内测试用例已成功存入到二维数组testcasedata中
+2021-06-04 22:12:46 INFO com.youceedu.interf.util.PatternUtil:81 -得到Matcher对象
+2021-06-04 22:12:46 INFO com.youceedu.interf.util.PatternUtil:51 -得到经过处理后的请求数据reqData= id=123456&passwd=123456&t=31
+2021-06-04 22:12:47 INFO com.youceedu.interf.util.PatternUtil:81 -得到Matcher对象
+2021-06-04 22:12:47 INFO com.youceedu.interf.util.PatternUtil:81 -得到Matcher对象
+2021-06-04 22:12:47 INFO com.youceedu.interf.util.PatternUtil:100 -对比预期值： 管理员登陆成功 与实际值: 管理员登陆成功
+2021-06-04 22:12:47 INFO com.youceedu.interf.util.PatternUtil:100 -对比预期值： 1 与实际值: 1
+2021-06-04 22:12:47 INFO com.youceedu.interf.listener.TestListenerImpl:43 -失败用例去重完成
+2021-06-04 22:15:40 INFO com.youceedu.interf.util.ExcelUtilTest:29 -传入excel路径 filepath: D:\\testcase.xlsx
+2021-06-04 22:15:40 INFO com.youceedu.interf.util.ExcelUtil:29 -实例化类，入参filename= D:\\testcase.xlsx
+2021-06-04 22:15:40 INFO com.youceedu.interf.util.ExcelUtilTest:77 -给测试方法提供测试数据
+2021-06-04 22:15:40 INFO com.youceedu.interf.util.ExcelUtil:41 -成功得到XSSFWorkbook对象 wb
+2021-06-04 22:15:40 INFO com.youceedu.interf.util.ExcelUtil:53 -成功得到sheet对象
+2021-06-04 22:15:40 INFO com.youceedu.interf.util.ExcelUtil:110 -单元格类型: STRING 返回值= 1
+2021-06-04 22:15:40 INFO com.youceedu.interf.util.ExcelUtil:110 -单元格类型: STRING 返回值= YES
+2021-06-04 22:15:40 INFO com.youceedu.interf.util.ExcelUtil:110 -单元格类型: STRING 返回值= 王哲--正确的账号和密码登录
+2021-06-04 22:15:40 INFO com.youceedu.interf.util.ExcelUtil:110 -单元格类型: STRING 返回值= POST
+2021-06-04 22:15:40 INFO com.youceedu.interf.util.ExcelUtil:110 -单元格类型: STRING 返回值= http://8.131.245.231:8080
+2021-06-04 22:15:40 INFO com.youceedu.interf.util.ExcelUtil:110 -单元格类型: STRING 返回值= /api/loginCheck
+2021-06-04 22:15:40 INFO com.youceedu.interf.util.ExcelUtil:110 -单元格类型: STRING 返回值= id=123456&passwd=123456&t=${__Random(1,1,50)}
+2021-06-04 22:15:40 INFO com.youceedu.interf.util.ExcelUtil:110 -单元格类型: STRING 返回值= $.msg=管理员登陆成功;$.stateCode=1
+2021-06-04 22:15:40 INFO com.youceedu.interf.util.ExcelUtil:110 -单元格类型: STRING 返回值= NO
+2021-06-04 22:15:40 INFO com.youceedu.interf.util.ExcelUtil:110 -单元格类型: STRING 返回值= /api/loginCheck:$.stateCode
+2021-06-04 22:15:40 INFO com.youceedu.interf.util.ExcelUtil:133 -excel内测试用例已成功存入到二维数组testcasedata中
+2021-06-04 22:15:40 INFO com.youceedu.interf.util.PatternUtil:81 -得到Matcher对象
+2021-06-04 22:15:40 INFO com.youceedu.interf.util.PatternUtil:51 -得到经过处理后的请求数据reqData= id=123456&passwd=123456&t=35
+2021-06-04 22:15:41 INFO com.youceedu.interf.util.PatternUtil:81 -得到Matcher对象
+2021-06-04 22:15:41 INFO com.youceedu.interf.util.PatternUtil:81 -得到Matcher对象
+2021-06-04 22:15:41 INFO com.youceedu.interf.util.PatternUtil:100 -对比预期值： 管理员登陆成功 与实际值: 管理员登陆成功
+2021-06-04 22:15:41 INFO com.youceedu.interf.util.PatternUtil:100 -对比预期值： 1 与实际值: 1
+2021-06-04 22:15:41 INFO com.youceedu.interf.listener.TestListenerImpl:43 -失败用例去重完成
+2021-06-04 22:18:46 INFO com.youceedu.interf.util.ExcelUtilTest:29 -传入excel路径 filepath: D:\\testcase.xlsx
+2021-06-04 22:18:46 INFO com.youceedu.interf.util.ExcelUtil:29 -实例化类，入参filename= D:\\testcase.xlsx
+2021-06-04 22:18:46 INFO com.youceedu.interf.util.ExcelUtilTest:77 -给测试方法提供测试数据
+2021-06-04 22:18:46 INFO com.youceedu.interf.util.ExcelUtil:41 -成功得到XSSFWorkbook对象 wb
+2021-06-04 22:18:46 INFO com.youceedu.interf.util.ExcelUtil:53 -成功得到sheet对象
+2021-06-04 22:18:46 INFO com.youceedu.interf.util.ExcelUtil:110 -单元格类型: STRING 返回值= 1
+2021-06-04 22:18:46 INFO com.youceedu.interf.util.ExcelUtil:110 -单元格类型: STRING 返回值= YES
+2021-06-04 22:18:46 INFO com.youceedu.interf.util.ExcelUtil:110 -单元格类型: STRING 返回值= 王哲--正确的账号和密码登录
+2021-06-04 22:18:46 INFO com.youceedu.interf.util.ExcelUtil:110 -单元格类型: STRING 返回值= POST
+2021-06-04 22:18:46 INFO com.youceedu.interf.util.ExcelUtil:110 -单元格类型: STRING 返回值= http://8.131.245.231:8080
+2021-06-04 22:18:46 INFO com.youceedu.interf.util.ExcelUtil:110 -单元格类型: STRING 返回值= /api/loginCheck
+2021-06-04 22:18:46 INFO com.youceedu.interf.util.ExcelUtil:110 -单元格类型: STRING 返回值= id=123456&passwd=123456&t=${__Random(1,1,50)}
+2021-06-04 22:18:46 INFO com.youceedu.interf.util.ExcelUtil:110 -单元格类型: STRING 返回值= $.msg=管理员登陆成功;$.stateCode=1
+2021-06-04 22:18:46 INFO com.youceedu.interf.util.ExcelUtil:110 -单元格类型: STRING 返回值= NO
+2021-06-04 22:18:46 INFO com.youceedu.interf.util.ExcelUtil:110 -单元格类型: STRING 返回值= /api/loginCheck:$.stateCode
+2021-06-04 22:18:46 INFO com.youceedu.interf.util.ExcelUtil:133 -excel内测试用例已成功存入到二维数组testcasedata中
+2021-06-04 22:18:46 INFO com.youceedu.interf.util.PatternUtil:81 -得到Matcher对象
+2021-06-04 22:18:46 INFO com.youceedu.interf.util.PatternUtil:51 -得到经过处理后的请求数据reqData= id=123456&passwd=123456&t=13
+2021-06-04 22:18:46 INFO com.youceedu.interf.util.PatternUtil:81 -得到Matcher对象
+2021-06-04 22:18:46 INFO com.youceedu.interf.util.PatternUtil:81 -得到Matcher对象
+2021-06-04 22:18:46 INFO com.youceedu.interf.util.PatternUtil:100 -对比预期值： 管理员登陆成功 与实际值: 管理员登陆成功
+2021-06-04 22:18:46 INFO com.youceedu.interf.util.PatternUtil:100 -对比预期值： 1 与实际值: 1
+2021-06-04 22:18:47 INFO com.youceedu.interf.listener.TestListenerImpl:43 -失败用例去重完成
+2021-06-04 22:20:05 INFO com.youceedu.interf.util.ExcelUtilTest:29 -传入excel路径 filepath: D:\\testcase.xlsx
+2021-06-04 22:20:05 INFO com.youceedu.interf.util.ExcelUtil:29 -实例化类，入参filename= D:\\testcase.xlsx
+2021-06-04 22:20:05 INFO com.youceedu.interf.util.ExcelUtilTest:77 -给测试方法提供测试数据
+2021-06-04 22:20:06 INFO com.youceedu.interf.util.ExcelUtil:41 -成功得到XSSFWorkbook对象 wb
+2021-06-04 22:20:06 INFO com.youceedu.interf.util.ExcelUtil:53 -成功得到sheet对象
+2021-06-04 22:20:06 INFO com.youceedu.interf.util.ExcelUtil:110 -单元格类型: STRING 返回值= 1
+2021-06-04 22:20:06 INFO com.youceedu.interf.util.ExcelUtil:110 -单元格类型: STRING 返回值= YES
+2021-06-04 22:20:06 INFO com.youceedu.interf.util.ExcelUtil:110 -单元格类型: STRING 返回值= 王哲--正确的账号和密码登录
+2021-06-04 22:20:06 INFO com.youceedu.interf.util.ExcelUtil:110 -单元格类型: STRING 返回值= POST
+2021-06-04 22:20:06 INFO com.youceedu.interf.util.ExcelUtil:110 -单元格类型: STRING 返回值= http://8.131.245.231:8080
+2021-06-04 22:20:06 INFO com.youceedu.interf.util.ExcelUtil:110 -单元格类型: STRING 返回值= /api/loginCheck
+2021-06-04 22:20:06 INFO com.youceedu.interf.util.ExcelUtil:110 -单元格类型: STRING 返回值= id=123456&passwd=123456&t=${__Random(1,1,50)}
+2021-06-04 22:20:06 INFO com.youceedu.interf.util.ExcelUtil:110 -单元格类型: STRING 返回值= $.msg=管理员登陆成功;$.stateCode=1
+2021-06-04 22:20:06 INFO com.youceedu.interf.util.ExcelUtil:110 -单元格类型: STRING 返回值= NO
+2021-06-04 22:20:06 INFO com.youceedu.interf.util.ExcelUtil:110 -单元格类型: STRING 返回值= /api/loginCheck:$.stateCode
+2021-06-04 22:20:06 INFO com.youceedu.interf.util.ExcelUtil:133 -excel内测试用例已成功存入到二维数组testcasedata中
+2021-06-04 22:20:06 INFO com.youceedu.interf.util.PatternUtil:81 -得到Matcher对象
+2021-06-04 22:20:06 INFO com.youceedu.interf.util.PatternUtil:51 -得到经过处理后的请求数据reqData= id=123456&passwd=123456&t=18
+2021-06-04 22:20:06 INFO com.youceedu.interf.util.PatternUtil:81 -得到Matcher对象
+2021-06-04 22:20:06 INFO com.youceedu.interf.util.PatternUtil:81 -得到Matcher对象
+2021-06-04 22:20:06 INFO com.youceedu.interf.util.PatternUtil:100 -对比预期值： 管理员登陆成功 与实际值: 管理员登陆成功
+2021-06-04 22:20:06 INFO com.youceedu.interf.util.PatternUtil:100 -对比预期值： 1 与实际值: 1
+2021-06-04 22:20:07 INFO com.youceedu.interf.listener.TestListenerImpl:43 -失败用例去重完成
+2021-06-04 22:24:03 INFO com.youceedu.interf.util.ExcelUtilTest:29 -传入excel路径 filepath: D:\\testcase.xlsx
+2021-06-04 22:24:03 INFO com.youceedu.interf.util.ExcelUtil:29 -实例化类，入参filename= D:\\testcase.xlsx
+2021-06-04 22:24:03 INFO com.youceedu.interf.util.ExcelUtilTest:77 -给测试方法提供测试数据
+2021-06-04 22:24:03 INFO com.youceedu.interf.util.ExcelUtil:41 -成功得到XSSFWorkbook对象 wb
+2021-06-04 22:24:03 INFO com.youceedu.interf.util.ExcelUtil:53 -成功得到sheet对象
+2021-06-04 22:24:03 INFO com.youceedu.interf.util.ExcelUtil:110 -单元格类型: STRING 返回值= 1
+2021-06-04 22:24:03 INFO com.youceedu.interf.util.ExcelUtil:110 -单元格类型: STRING 返回值= YES
+2021-06-04 22:24:03 INFO com.youceedu.interf.util.ExcelUtil:110 -单元格类型: STRING 返回值= 王哲--正确的账号和密码登录
+2021-06-04 22:24:03 INFO com.youceedu.interf.util.ExcelUtil:110 -单元格类型: STRING 返回值= POST
+2021-06-04 22:24:03 INFO com.youceedu.interf.util.ExcelUtil:110 -单元格类型: STRING 返回值= http://8.131.245.231:8080
+2021-06-04 22:24:03 INFO com.youceedu.interf.util.ExcelUtil:110 -单元格类型: STRING 返回值= /api/loginCheck
+2021-06-04 22:24:03 INFO com.youceedu.interf.util.ExcelUtil:110 -单元格类型: STRING 返回值= id=123456&passwd=123456&t=${__Random(1,1,50)}
+2021-06-04 22:24:03 INFO com.youceedu.interf.util.ExcelUtil:110 -单元格类型: STRING 返回值= $.msg=管理员登陆成功;$.stateCode=1
+2021-06-04 22:24:03 INFO com.youceedu.interf.util.ExcelUtil:110 -单元格类型: STRING 返回值= NO
+2021-06-04 22:24:03 INFO com.youceedu.interf.util.ExcelUtil:110 -单元格类型: STRING 返回值= /api/loginCheck:$.stateCode
+2021-06-04 22:24:03 INFO com.youceedu.interf.util.ExcelUtil:133 -excel内测试用例已成功存入到二维数组testcasedata中
+2021-06-04 22:24:03 INFO com.youceedu.interf.util.PatternUtil:81 -得到Matcher对象
+2021-06-04 22:24:03 INFO com.youceedu.interf.util.PatternUtil:51 -得到经过处理后的请求数据reqData= id=123456&passwd=123456&t=46
+2021-06-04 22:24:04 INFO com.youceedu.interf.util.PatternUtil:81 -得到Matcher对象
+2021-06-04 22:24:04 INFO com.youceedu.interf.util.PatternUtil:81 -得到Matcher对象
+2021-06-04 22:24:04 INFO com.youceedu.interf.util.PatternUtil:100 -对比预期值： 管理员登陆成功 与实际值: 管理员登陆成功
+2021-06-04 22:24:04 INFO com.youceedu.interf.util.PatternUtil:100 -对比预期值： 1 与实际值: 1
+2021-06-04 22:24:05 INFO com.youceedu.interf.listener.TestListenerImpl:43 -失败用例去重完成
